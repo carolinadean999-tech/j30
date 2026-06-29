@@ -22,7 +22,7 @@ const BlogGrid = () => {
       title: 'Zinswende 2024: Auswirkungen auf Anleihenportfolios',
       excerpt: 'Eine detaillierte Analyse der aktuellen Zinspolitik der EZB und deren Implikationen für institutionelle Fixed-Income-Strategien.',
       category: 'Marktanalyse',
-      date: '15. Januar 2024',
+      date: '28. Juni 2026',
       readTime: '8 Min.',
       image: '/images/blog1.jpg'
     },
@@ -31,7 +31,7 @@ const BlogGrid = () => {
       title: 'KAGB-Novelle: Neue Anforderungen für Kapitalverwaltungsgesellschaften',
       excerpt: 'Überblick über die wichtigsten Änderungen im Kapitalanlagegesetzbuch und deren praktische Umsetzung für regulierte KVGs.',
       category: 'Regulierung',
-      date: '12. Januar 2024',
+      date: '26. Juni 2026',
       readTime: '6 Min.',
       image: '/images/blog2.jpg'
     },
@@ -40,7 +40,7 @@ const BlogGrid = () => {
       title: 'Diversifikation in volatilen Märkten: Best Practices',
       excerpt: 'Strategische Ansätze zur Portfoliodiversifikation unter Berücksichtigung aktueller Marktvolatilitäten und Korrelationsstrukturen.',
       category: 'Strategie',
-      date: '10. Januar 2024',
+      date: '24. Juni 2026',
       readTime: '10 Min.',
       image: '/images/blog3.jpg'
     },
@@ -49,7 +49,7 @@ const BlogGrid = () => {
       title: 'ESG-Integration in institutionellen Portfolios',
       excerpt: 'Praktische Implementierung von ESG-Kriterien in Anlagestrategien unter Einhaltung regulatorischer Vorgaben und Performanceanforderungen.',
       category: 'Strategie',
-      date: '8. Januar 2024',
+      date: '22. Juni 2026',
       readTime: '7 Min.',
       image: '/images/blog4.jpg'
     },
@@ -58,7 +58,7 @@ const BlogGrid = () => {
       title: 'Geopolitische Risiken und Portfoliomanagement',
       excerpt: 'Analyse aktueller geopolitischer Entwicklungen und deren Auswirkungen auf internationale Anlagestrategien und Risikomanagement.',
       category: 'Marktanalyse',
-      date: '5. Januar 2024',
+      date: '20. Juni 2026',
       readTime: '9 Min.',
       image: '/images/blog5.jpg'
     },
@@ -67,7 +67,7 @@ const BlogGrid = () => {
       title: 'Inflationsschutz durch alternative Anlageklassen',
       excerpt: 'Evaluierung alternativer Investments als Inflationshedge: Immobilien, Infrastruktur und Rohstoffe im institutionellen Kontext.',
       category: 'Strategie',
-      date: '3. Januar 2024',
+      date: '19. Juni 2026',
       readTime: '8 Min.',
       image: '/images/blog6.jpg'
     },
@@ -76,7 +76,7 @@ const BlogGrid = () => {
       title: 'Liquiditätsmanagement in Spezial-AIFs',
       excerpt: 'Best Practices für effektives Liquiditätsmanagement unter Berücksichtigung regulatorischer Anforderungen nach KAGB.',
       category: 'Regulierung',
-      date: '29. Dezember 2023',
+      date: '17. Juni 2026',
       readTime: '6 Min.',
       image: '/images/blog7.jpg'
     },
@@ -85,7 +85,7 @@ const BlogGrid = () => {
       title: 'Konjunkturausblick 2024: Deutschland und Europa',
       excerpt: 'Makroökonomische Prognosen für die deutsche und europäische Wirtschaft mit Fokus auf Zinsentwicklung und Wachstumsperspektiven.',
       category: 'Wirtschaft',
-      date: '27. Dezember 2023',
+      date: '15. Juni 2026',
       readTime: '11 Min.',
       image: '/images/blog8.jpg'
     },
@@ -94,7 +94,7 @@ const BlogGrid = () => {
       title: 'Digitalisierung im Asset Management',
       excerpt: 'Technologische Innovationen und deren Einfluss auf Prozesse, Compliance und Kundenservice in der Kapitalverwaltung.',
       category: 'Technologie',
-      date: '22. Dezember 2023',
+      date: '13. Juni 2026',
       readTime: '7 Min.',
       image: '/images/blog9.jpg'
     },
@@ -103,7 +103,7 @@ const BlogGrid = () => {
       title: 'Nachhaltige Investments: Trends und Entwicklungen 2024',
       excerpt: 'Aktuelle Entwicklungen im Bereich nachhaltiger Geldanlagen und deren Integration in institutionelle Anlagestrategien.',
       category: 'Nachhaltigkeit',
-      date: '20. Dezember 2023',
+      date: '11. Juni 2026',
       readTime: '9 Min.',
       image: '/images/blog10.jpg'
     },
@@ -112,7 +112,7 @@ const BlogGrid = () => {
       title: 'Private Equity: Chancen für institutionelle Investoren',
       excerpt: 'Analyse der Private-Equity-Märkte und strategische Überlegungen für institutionelle Anleger im aktuellen Marktumfeld.',
       category: 'Marktanalyse',
-      date: '18. Dezember 2023',
+      date: '9. Juni 2026',
       readTime: '10 Min.',
       image: '/images/blog11.jpg'
     },
@@ -121,7 +121,7 @@ const BlogGrid = () => {
       title: 'Währungsrisiken im internationalen Portfolio',
       excerpt: 'Strategien zur Steuerung von Währungsrisiken in global diversifizierten Portfolios und Einsatz von Hedging-Instrumenten.',
       category: 'Risikomanagement',
-      date: '15. Dezember 2023',
+      date: '7. Juni 2026',
       readTime: '8 Min.',
       image: '/images/blog12.jpg'
     },
@@ -130,7 +130,7 @@ const BlogGrid = () => {
       title: 'Real Assets: Infrastruktur als Anlageklasse',
       excerpt: 'Bewertung von Infrastrukturinvestments als langfristige Anlageoption mit stabilen Cashflows und Inflationsschutz.',
       category: 'Strategie',
-      date: '13. Dezember 2023',
+      date: '5. Juni 2026',
       readTime: '9 Min.',
       image: '/images/blog13.jpg'
     },
@@ -139,7 +139,7 @@ const BlogGrid = () => {
       title: 'MiFID II: Auswirkungen auf die Anlageberatung',
       excerpt: 'Praktische Implikationen der MiFID-II-Richtlinie für Kapitalverwaltungsgesellschaften und institutionelle Anlageberatung.',
       category: 'Regulierung',
-      date: '11. Dezember 2023',
+      date: '3. Juni 2026',
       readTime: '7 Min.',
       image: '/images/blog14.jpg'
     },
@@ -148,7 +148,7 @@ const BlogGrid = () => {
       title: 'Künstliche Intelligenz im Portfoliomanagement',
       excerpt: 'Einsatzmöglichkeiten von KI und Machine Learning in der Portfoliooptimierung und im Risikomanagement.',
       category: 'Technologie',
-      date: '8. Dezember 2023',
+      date: '1. Juni 2026',
       readTime: '10 Min.',
       image: '/images/blog15.jpg'
     },
@@ -157,7 +157,7 @@ const BlogGrid = () => {
       title: 'Emerging Markets: Chancen und Risiken 2024',
       excerpt: 'Analyse der Schwellenländermärkte mit Fokus auf Wachstumspotenziale und spezifische Risikofaktoren für institutionelle Investoren.',
       category: 'Marktanalyse',
-      date: '6. Dezember 2023',
+      date: '31. Mai 2026',
       readTime: '11 Min.',
       image: '/images/blog16.jpg'
     },
@@ -166,7 +166,7 @@ const BlogGrid = () => {
       title: 'Stresstest-Szenarien für Portfolios',
       excerpt: 'Methoden und Best Practices für die Durchführung von Stresstests und Szenarioanalysen in der Kapitalverwaltung.',
       category: 'Risikomanagement',
-      date: '4. Dezember 2023',
+      date: '29. Mai 2026',
       readTime: '8 Min.',
       image: '/images/blog17.jpg'
     },
@@ -175,7 +175,7 @@ const BlogGrid = () => {
       title: 'Green Bonds: Marktentwicklung und Perspektiven',
       excerpt: 'Überblick über den wachsenden Markt für grüne Anleihen und deren Rolle in nachhaltigen Investmentstrategien.',
       category: 'Nachhaltigkeit',
-      date: '1. Dezember 2023',
+      date: '27. Mai 2026',
       readTime: '7 Min.',
       image: '/images/blog18.jpg'
     },
@@ -184,7 +184,7 @@ const BlogGrid = () => {
       title: 'Cyber-Sicherheit in der Finanzbranche',
       excerpt: 'Aktuelle Bedrohungen und Schutzmaßnahmen für Kapitalverwaltungsgesellschaften im digitalen Zeitalter.',
       category: 'Technologie',
-      date: '29. November 2023',
+      date: '25. Mai 2026',
       readTime: '9 Min.',
       image: '/images/blog19.jpg'
     },
@@ -193,7 +193,7 @@ const BlogGrid = () => {
       title: 'Demografischer Wandel und Kapitalanlage',
       excerpt: 'Langfristige Auswirkungen des demografischen Wandels auf Kapitalmärkte und Anlagestrategien für institutionelle Investoren.',
       category: 'Wirtschaft',
-      date: '27. November 2023',
+      date: '23. Mai 2026',
       readTime: '10 Min.',
       image: '/images/blog20.jpg'
     },
@@ -202,7 +202,7 @@ const BlogGrid = () => {
       title: 'Blockchain-Technologie im Wertpapierhandel',
       excerpt: 'Potenziale und Herausforderungen der Distributed-Ledger-Technologie für den institutionellen Wertpapierhandel und Settlement.',
       category: 'Technologie',
-      date: '25. November 2023',
+      date: '21. Mai 2026',
       readTime: '9 Min.',
       image: '/images/blog21.jpg'
     },
@@ -211,7 +211,7 @@ const BlogGrid = () => {
       title: 'Faktor-Investing: Systematische Anlagestrategien',
       excerpt: 'Wissenschaftlich fundierte Faktorstrategien wie Value, Momentum und Quality im institutionellen Portfoliomanagement.',
       category: 'Strategie',
-      date: '23. November 2023',
+      date: '19. Mai 2026',
       readTime: '11 Min.',
       image: '/images/blog22.jpg'
     },
@@ -220,7 +220,7 @@ const BlogGrid = () => {
       title: 'Immobilien-AIFs: Marktchancen 2024',
       excerpt: 'Analyse des deutschen Immobilienmarktes und Investitionsmöglichkeiten für geschlossene und offene Immobilienfonds.',
       category: 'Marktanalyse',
-      date: '21. November 2023',
+      date: '17. Mai 2026',
       readTime: '10 Min.',
       image: '/images/blog23.jpg'
     },
@@ -229,7 +229,7 @@ const BlogGrid = () => {
       title: 'DORA: Neue IT-Sicherheitsanforderungen',
       excerpt: 'Der Digital Operational Resilience Act und seine Auswirkungen auf Kapitalverwaltungsgesellschaften und deren IT-Infrastruktur.',
       category: 'Regulierung',
-      date: '19. November 2023',
+      date: '15. Mai 2026',
       readTime: '8 Min.',
       image: '/images/blog24.jpg'
     },
@@ -238,7 +238,7 @@ const BlogGrid = () => {
       title: 'Rohstoff-Investments: Strategische Allokation',
       excerpt: 'Rolle von Rohstoffen in diversifizierten Portfolios: Gold, Öl, Industriemetalle und Agrarrohstoffe im Vergleich.',
       category: 'Strategie',
-      date: '17. November 2023',
+      date: '13. Mai 2026',
       readTime: '9 Min.',
       image: '/images/blog25.jpg'
     },
@@ -247,7 +247,7 @@ const BlogGrid = () => {
       title: 'Quantitative Easing: Ende einer Ära',
       excerpt: 'Auswirkungen der Beendigung der quantitativen Lockerung durch die EZB auf Anleihenmärkte und Portfoliostrategien.',
       category: 'Marktanalyse',
-      date: '15. November 2023',
+      date: '12. Mai 2026',
       readTime: '10 Min.',
       image: '/images/blog26.jpg'
     },
@@ -256,7 +256,7 @@ const BlogGrid = () => {
       title: 'Nachhaltigkeitsrating: Methoden und Standards',
       excerpt: 'Vergleich verschiedener ESG-Rating-Agenturen und deren Bewertungsmethoden für institutionelle Investitionsentscheidungen.',
       category: 'Nachhaltigkeit',
-      date: '13. November 2023',
+      date: '10. Mai 2026',
       readTime: '8 Min.',
       image: '/images/blog27.jpg'
     },
@@ -265,7 +265,7 @@ const BlogGrid = () => {
       title: 'Derivate im Risikomanagement',
       excerpt: 'Einsatz von Optionen, Futures und Swaps zur Absicherung von Portfoliorisiken und zur Optimierung der Rendite-Risiko-Struktur.',
       category: 'Risikomanagement',
-      date: '11. November 2023',
+      date: '8. Mai 2026',
       readTime: '11 Min.',
       image: '/images/blog28.jpg'
     },
@@ -274,7 +274,7 @@ const BlogGrid = () => {
       title: 'Venture Capital: Zugang für institutionelle Anleger',
       excerpt: 'Investitionsmöglichkeiten in Start-ups und Wachstumsunternehmen über VC-Fonds und deren Integration in institutionelle Portfolios.',
       category: 'Strategie',
-      date: '9. November 2023',
+      date: '6. Mai 2026',
       readTime: '9 Min.',
       image: '/images/blog29.jpg'
     },
@@ -283,7 +283,7 @@ const BlogGrid = () => {
       title: 'Steueroptimierung bei Kapitalanlagen',
       excerpt: 'Strategien zur steuereffizienten Strukturierung von Investmentportfolios unter Berücksichtigung aktueller Gesetzgebung.',
       category: 'Strategie',
-      date: '7. November 2023',
+      date: '4. Mai 2026',
       readTime: '10 Min.',
       image: '/images/blog30.jpg'
     },
@@ -292,7 +292,7 @@ const BlogGrid = () => {
       title: 'Credit-Spreads: Analyse und Prognose',
       excerpt: 'Entwicklung der Risikoaufschläge bei Unternehmensanleihen und deren Bedeutung für Fixed-Income-Investoren.',
       category: 'Marktanalyse',
-      date: '5. November 2023',
+      date: '2. Mai 2026',
       readTime: '8 Min.',
       image: '/images/blog31.jpg'
     },
@@ -301,7 +301,7 @@ const BlogGrid = () => {
       title: 'Automatisiertes Trading: Chancen und Grenzen',
       excerpt: 'Algorithmischer Handel und Robo-Advisory im institutionellen Asset Management: Technologie, Regulierung und Performance.',
       category: 'Technologie',
-      date: '3. November 2023',
+      date: '30. April 2026',
       readTime: '9 Min.',
       image: '/images/blog32.jpg'
     },
@@ -310,7 +310,7 @@ const BlogGrid = () => {
       title: 'Pensionsfonds: Herausforderungen und Lösungen',
       excerpt: 'Strategien für Pensionskassen zur Bewältigung niedriger Zinsen, demografischer Entwicklung und regulatorischer Anforderungen.',
       category: 'Wirtschaft',
-      date: '1. November 2023',
+      date: '28. April 2026',
       readTime: '11 Min.',
       image: '/images/blog33.jpg'
     },
@@ -319,7 +319,7 @@ const BlogGrid = () => {
       title: 'Klimarisiken im Portfolio',
       excerpt: 'Identifikation, Messung und Management von klimabezogenen Finanzrisiken gemäß TCFD-Empfehlungen.',
       category: 'Nachhaltigkeit',
-      date: '30. Oktober 2023',
+      date: '26. April 2026',
       readTime: '10 Min.',
       image: '/images/blog34.jpg'
     },
@@ -328,7 +328,7 @@ const BlogGrid = () => {
       title: 'Alternative Risikoprämien',
       excerpt: 'Systematische Erfassung von Risikoprämien jenseits traditioneller Anlageklassen für institutionelle Portfolios.',
       category: 'Strategie',
-      date: '28. Oktober 2023',
+      date: '24. April 2026',
       readTime: '9 Min.',
       image: '/images/blog35.jpg'
     },
@@ -337,7 +337,7 @@ const BlogGrid = () => {
       title: 'Compliance-Management: Best Practices',
       excerpt: 'Aufbau und Organisation effektiver Compliance-Strukturen in Kapitalverwaltungsgesellschaften.',
       category: 'Regulierung',
-      date: '26. Oktober 2023',
+      date: '23. April 2026',
       readTime: '8 Min.',
       image: '/images/blog36.jpg'
     },
@@ -346,7 +346,7 @@ const BlogGrid = () => {
       title: 'Hochzinsanleihen: Chancen und Risiken',
       excerpt: 'High-Yield-Bonds im institutionellen Portfolio: Bonitätsanalyse, Ausfallrisiken und Renditeerwartungen.',
       category: 'Marktanalyse',
-      date: '24. Oktober 2023',
+      date: '21. April 2026',
       readTime: '10 Min.',
       image: '/images/blog37.jpg'
     },
@@ -355,7 +355,7 @@ const BlogGrid = () => {
       title: 'Digitale Assets: Institutionelle Perspektive',
       excerpt: 'Kryptowährungen und digitale Vermögenswerte: Regulierung, Verwahrung und Portfoliointegration für professionelle Investoren.',
       category: 'Technologie',
-      date: '22. Oktober 2023',
+      date: '19. April 2026',
       readTime: '11 Min.',
       image: '/images/blog38.jpg'
     },
@@ -364,7 +364,7 @@ const BlogGrid = () => {
       title: 'Performance-Attribution: Methoden und Analyse',
       excerpt: 'Systematische Analyse von Portfoliorenditen: Faktorzerlegung, Benchmark-Vergleich und Wertbeitrag einzelner Entscheidungen.',
       category: 'Risikomanagement',
-      date: '20. Oktober 2023',
+      date: '17. April 2026',
       readTime: '9 Min.',
       image: '/images/blog39.jpg'
     },
@@ -373,7 +373,7 @@ const BlogGrid = () => {
       title: 'Globale Lieferketten: Investmentimplikationen',
       excerpt: 'Auswirkungen von Lieferkettenveränderungen auf Branchen, Regionen und Investmentstrategien im globalen Kontext.',
       category: 'Wirtschaft',
-      date: '18. Oktober 2023',
+      date: '15. April 2026',
       readTime: '10 Min.',
       image: '/images/blog40.jpg'
     }
