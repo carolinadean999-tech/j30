@@ -39,7 +39,7 @@ export const users: User[] = [
     password: 'demo123',
     firstName: 'Max',
     lastName: 'Mustermann',
-    phone: '+49 40 334668098',
+    phone: '+49 30 22955248',
     address: 'Friedrichstraße 123',
     city: 'Berlin',
     postalCode: '10117',

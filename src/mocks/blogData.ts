@@ -49,7 +49,7 @@ export const blogData: Record<number, BlogPost> = {
       'Besonders relevant sind die neuen Vorgaben zur Nachhaltigkeitsberichterstattung gemäß der EU-Taxonomie-Verordnung. Kapitalverwaltungsgesellschaften müssen nun detailliert über die Nachhaltigkeitsmerkmale ihrer Investmentfonds berichten.',
       'Die Implementierung dieser Anforderungen erfordert erhebliche Investitionen in IT-Systeme und Compliance-Strukturen. Gleichzeitig bietet die Novelle auch Chancen zur Prozessoptimierung und Digitalisierung.',
       'Ein zentraler Aspekt der Novelle ist die Stärkung der Governance-Strukturen. Die Anforderungen an die Geschäftsleitung und den Aufsichtsrat wurden präzisiert, und die Rolle der Compliance-Funktion wurde weiter gestärkt.',
-      'FIDELIA hat frühzeitig mit der Umsetzung der neuen Anforderungen begonnen und verfügt über die notwendigen Systeme und Prozesse, um alle regulatorischen Vorgaben vollständig zu erfüllen.'
+      'J30 hat frühzeitig mit der Umsetzung der neuen Anforderungen begonnen und verfügt über die notwendigen Systeme und Prozesse, um alle regulatorischen Vorgaben vollständig zu erfüllen.'
     ],
     category: 'Regulierung',
     date: '12. Januar 2024',
@@ -72,7 +72,7 @@ export const blogData: Record<number, BlogPost> = {
       'Alternative Investments wie Infrastruktur, Private Debt oder Hedgefonds können zur Verbesserung des Risiko-Rendite-Profils beitragen. Dabei ist jedoch eine sorgfältige Due Diligence und ein professionelles Risikomanagement unerlässlich.',
       'Die geografische Diversifikation bleibt ein wichtiger Baustein, wobei Schwellenländer trotz höherer Volatilität attraktive Renditechancen bieten können. Eine dynamische Allokation basierend auf fundamentalen und technischen Faktoren ist empfehlenswert.',
       'Moderne Portfoliotheorie und quantitative Methoden ermöglichen eine präzisere Messung und Steuerung von Diversifikationseffekten. Risk-Parity-Ansätze und faktorbasierte Strategien gewinnen zunehmend an Bedeutung.',
-      'FIDELIA verfolgt einen ganzheitlichen Diversifikationsansatz, der sowohl traditionelle als auch alternative Anlageklassen umfasst und kontinuierlich an die Marktbedingungen angepasst wird.'
+      'J30 verfolgt einen ganzheitlichen Diversifikationsansatz, der sowohl traditionelle als auch alternative Anlageklassen umfasst und kontinuierlich an die Marktbedingungen angepasst wird.'
     ],
     category: 'Strategie',
     date: '10. Januar 2024',
@@ -95,7 +95,7 @@ export const blogData: Record<number, BlogPost> = {
       'Die Datenverfügbarkeit und -qualität bleibt eine zentrale Herausforderung. Verschiedene ESG-Rating-Agenturen kommen oft zu unterschiedlichen Bewertungen desselben Unternehmens. Eine kritische Analyse und Triangulation verschiedener Datenquellen ist daher unerlässlich.',
       'Best-in-Class-Ansätze, Ausschlussstrategien und Impact Investing sind verschiedene Wege der ESG-Integration. Die Wahl der richtigen Strategie hängt von den spezifischen Anlagezielen und regulatorischen Anforderungen ab.',
       'Engagement und aktive Eigentümerschaft gewinnen zunehmend an Bedeutung. Durch den Dialog mit Unternehmen können institutionelle Investoren positive Veränderungen bewirken und gleichzeitig ihre Investments schützen.',
-      'FIDELIA hat ESG-Kriterien fest in alle Investmentprozesse integriert und verfügt über ein spezialisiertes ESG-Research-Team, das kontinuierlich die Nachhaltigkeitsperformance der Portfolios überwacht und optimiert.'
+      'J30 hat ESG-Kriterien fest in alle Investmentprozesse integriert und verfügt über ein spezialisiertes ESG-Research-Team, das kontinuierlich die Nachhaltigkeitsperformance der Portfolios überwacht und optimiert.'
     ],
     category: 'Strategie',
     date: '8. Januar 2024',
@@ -118,7 +118,7 @@ export const blogData: Record<number, BlogPost> = {
       'Währungsrisiken gewinnen durch geopolitische Spannungen an Bedeutung. Die Rolle des US-Dollars als Reservewährung wird zunehmend hinterfragt, während alternative Währungssysteme an Bedeutung gewinnen.',
       'Rohstoffmärkte reagieren besonders sensibel auf geopolitische Entwicklungen. Energiesicherheit und die Kontrolle über kritische Rohstoffe werden zu strategischen Faktoren, die Investitionsentscheidungen beeinflussen.',
       'Szenarioanalysen und Stresstests sind unverzichtbare Werkzeuge, um die Auswirkungen verschiedener geopolitischer Entwicklungen auf Portfolios zu bewerten. Eine flexible Asset Allocation ermöglicht es, schnell auf veränderte Rahmenbedingungen zu reagieren.',
-      'FIDELIA verfügt über ein spezialisiertes Geopolitik-Research-Team, das kontinuierlich globale Entwicklungen analysiert und deren potenzielle Auswirkungen auf die verwalteten Portfolios bewertet.'
+      'J30 verfügt über ein spezialisiertes Geopolitik-Research-Team, das kontinuierlich globale Entwicklungen analysiert und deren potenzielle Auswirkungen auf die verwalteten Portfolios bewertet.'
     ],
     category: 'Marktanalyse',
     date: '5. Januar 2024',
@@ -141,7 +141,7 @@ export const blogData: Record<number, BlogPost> = {
       'Infrastrukturinvestments profitieren von der häufig inflationsindexierten Vergütung. Regulierte Assets wie Stromnetze oder mautpflichtige Straßen bieten planbare, inflationsgeschützte Erträge.',
       'Rohstoffe als physische Assets bieten naturgemäß einen direkten Inflationsschutz. Gold hat sich historisch als sichere Hafenanlage in Krisenzeiten bewährt.',
       'Die optimale Allokation in alternative Anlageklassen hängt von den spezifischen Anlagezielen, der Risikotoleranz und dem Liquiditätsbedarf des Investors ab. Eine sorgfältige Due Diligence ist unerlässlich.',
-      'FIDELIA unterstützt institutionelle Kunden bei der Identifikation und Implementierung geeigneter Inflationsschutzstrategien unter Berücksichtigung individueller Anforderungen.'
+      'J30 unterstützt institutionelle Kunden bei der Identifikation und Implementierung geeigneter Inflationsschutzstrategien unter Berücksichtigung individueller Anforderungen.'
     ],
     category: 'Strategie',
     date: '3. Januar 2024',
@@ -164,7 +164,7 @@ export const blogData: Record<number, BlogPost> = {
       'Ein effektives Liquiditätsmanagement beginnt bereits bei der Portfoliokonstruktion. Die Berücksichtigung von Liquiditätsrisiken in der Asset Allocation verhindert spätere Engpässe.',
       'Derivative Instrumente können zur Liquiditätssteuerung beitragen, ohne die gewünschte Marktexposition aufzugeben. Credit Lines bieten zusätzliche Flexibilität in Stresssituationen.',
       'Die Dokumentation und das Reporting des Liquiditätsmanagements müssen den hohen regulatorischen Standards entsprechen. Transparenz gegenüber Anlegern und Aufsichtsbehörden ist essentiell.',
-      'FIDELIA verfügt über robuste Liquiditätsmanagement-Prozesse und -Systeme, die alle regulatorischen Anforderungen erfüllen und gleichzeitig eine optimale Portfoliosteuerung ermöglichen.'
+      'J30 verfügt über robuste Liquiditätsmanagement-Prozesse und -Systeme, die alle regulatorischen Anforderungen erfüllen und gleichzeitig eine optimale Portfoliosteuerung ermöglichen.'
     ],
     category: 'Regulierung',
     date: '29. Dezember 2023',
@@ -187,7 +187,7 @@ export const blogData: Record<number, BlogPost> = {
       'Die deutsche Industrie steht vor strukturellen Herausforderungen durch Energiekosten, digitale Transformation und geopolitische Unsicherheiten. Gleichzeitig bieten sich Chancen in Zukunftsbranchen wie erneuerbare Energien und Digitalisierung.',
       'Die Arbeitsmärkte zeigen sich trotz konjunktureller Schwäche robust. Der demografische Wandel führt zu anhaltenden Fachkräfteengpässen in vielen Branchen.',
       'Für institutionelle Investoren ergeben sich aus dieser Gemengelage vielfältige Implikationen. Eine selektive Sektorallokation und regionale Diversifikation gewinnen an Bedeutung.',
-      'FIDELIA erwartet für 2024 eine moderate Wirtschaftserholung und positioniert die verwalteten Portfolios entsprechend für dieses Szenario.'
+      'J30 erwartet für 2024 eine moderate Wirtschaftserholung und positioniert die verwalteten Portfolios entsprechend für dieses Szenario.'
     ],
     category: 'Wirtschaft',
     date: '27. Dezember 2023',
@@ -210,7 +210,7 @@ export const blogData: Record<number, BlogPost> = {
       'Künstliche Intelligenz und Machine Learning revolutionieren die Anlageentscheidungen. Quantitative Modelle können große Datenmengen analysieren und Muster erkennen, die menschlichen Analysten verborgen bleiben.',
       'Die Digitalisierung verändert auch die Kundenbeziehung. Digitale Reporting-Plattformen und mobile Apps bieten Investoren transparenten Zugang zu ihren Portfolios in Echtzeit.',
       'Cybersicherheit wird zum kritischen Erfolgsfaktor. Der Schutz sensibler Kundendaten und die Abwehr von Cyberangriffen erfordern kontinuierliche Investitionen in Sicherheitstechnologien.',
-      'FIDELIA investiert kontinuierlich in die Digitalisierung ihrer Prozesse und Systeme, um Kunden modernste Services bei höchsten Sicherheitsstandards zu bieten.'
+      'J30 investiert kontinuierlich in die Digitalisierung ihrer Prozesse und Systeme, um Kunden modernste Services bei höchsten Sicherheitsstandards zu bieten.'
     ],
     category: 'Technologie',
     date: '22. Dezember 2023',
@@ -233,7 +233,7 @@ export const blogData: Record<number, BlogPost> = {
       'Impact Investing gewinnt an Bedeutung. Investoren wollen nicht nur negative Auswirkungen vermeiden, sondern aktiv positive Veränderungen bewirken.',
       'Die Messung und das Reporting von Nachhaltigkeitskennzahlen werden standardisierter. Die CSRD-Richtlinie wird die Datenverfügbarkeit und -qualität erheblich verbessern.',
       'Greenwashing-Risiken erfordern eine kritische Prüfung von Nachhaltigkeitsversprechen. Eine fundierte ESG-Analyse ist unerlässlich für die Identifikation authentischer nachhaltiger Investments.',
-      'FIDELIA bietet ein umfassendes Spektrum nachhaltiger Anlagestrategien und unterstützt institutionelle Kunden bei der Umsetzung ihrer Nachhaltigkeitsziele.'
+      'J30 bietet ein umfassendes Spektrum nachhaltiger Anlagestrategien und unterstützt institutionelle Kunden bei der Umsetzung ihrer Nachhaltigkeitsziele.'
     ],
     category: 'Nachhaltigkeit',
     date: '20. Dezember 2023',
@@ -256,7 +256,7 @@ export const blogData: Record<number, BlogPost> = {
       'Die Auswahl der richtigen Manager ist entscheidend für den Anlageerfolg. Die Streuung der Renditen zwischen Top- und Bottom-Quartile-Managern ist erheblich.',
       'Secondaries und Co-Investments bieten alternative Zugangswege zu Private Equity mit unterschiedlichen Risiko-Rendite-Profilen und Liquiditätsmerkmalen.',
       'Die Integration von ESG-Faktoren gewinnt auch im Private-Equity-Bereich an Bedeutung. Nachhaltigkeitsaspekte werden zunehmend zu Werttreibern.',
-      'FIDELIA bietet institutionellen Investoren Zugang zu sorgfältig ausgewählten Private-Equity-Strategien und unterstützt bei der optimalen Portfoliointegration.'
+      'J30 bietet institutionellen Investoren Zugang zu sorgfältig ausgewählten Private-Equity-Strategien und unterstützt bei der optimalen Portfoliointegration.'
     ],
     category: 'Marktanalyse',
     date: '18. Dezember 2023',
@@ -279,7 +279,7 @@ export const blogData: Record<number, BlogPost> = {
       'Passive Hedging-Strategien sichern einen konstanten Anteil des Währungsrisikos ab. Aktive Strategien nutzen Marktopportunitäten zur Optimierung des Hedging-Verhältnisses.',
       'Forward-Kontrakte sind das gängigste Instrument zur Währungsabsicherung. Optionsstrategien bieten zusätzliche Flexibilität, sind aber mit höheren Kosten verbunden.',
       'Die Kosten der Währungsabsicherung variieren erheblich zwischen Währungspaaren. Zinsdifferenzen und Volatilität sind die wesentlichen Kostentreiber.',
-      'FIDELIA verfügt über langjährige Erfahrung im Währungsrisikomanagement und bietet maßgeschneiderte Lösungen für institutionelle Kunden mit internationalen Portfolios.'
+      'J30 verfügt über langjährige Erfahrung im Währungsrisikomanagement und bietet maßgeschneiderte Lösungen für institutionelle Kunden mit internationalen Portfolios.'
     ],
     category: 'Risikomanagement',
     date: '15. Dezember 2023',
@@ -302,7 +302,7 @@ export const blogData: Record<number, BlogPost> = {
       'Regulierte Assets mit langfristigen Konzessionen bieten planbare Erträge, während unregulierte Projekte höhere Renditechancen bei entsprechend höherem Risiko bieten.',
       'Die Energiewende treibt massive Investitionen in erneuerbare Energien und Netzinfrastruktur. Institutionelle Investoren können von diesem Transformationsprozess profitieren.',
       'Die Illiquidität von Infrastrukturinvestments erfordert eine sorgfältige Liquiditätsplanung und passt am besten zu Investoren mit langfristigem Anlagehorizont.',
-      'FIDELIA bietet Zugang zu diversifizierten Infrastrukturportfolios und unterstützt Kunden bei der Integration dieser Anlageklasse in ihre Gesamtallokation.'
+      'J30 bietet Zugang zu diversifizierten Infrastrukturportfolios und unterstützt Kunden bei der Integration dieser Anlageklasse in ihre Gesamtallokation.'
     ],
     category: 'Strategie',
     date: '13. Dezember 2023',
@@ -325,7 +325,7 @@ export const blogData: Record<number, BlogPost> = {
       'Die Offenlegungspflichten für Kosten und Gebühren wurden erheblich ausgeweitet. Kunden müssen vollständige Transparenz über alle anfallenden Kosten erhalten.',
       'Research-Unbundling hat die Vergütungsmodelle für Finanzanalysen verändert. Die separate Abrechnung von Research-Dienstleistungen erhöht die Kostentransparenz.',
       'Die Produktgovernance-Anforderungen stellen sicher, dass Finanzprodukte für die vorgesehene Zielgruppe geeignet sind. Hersteller und Vertreiber tragen gemeinsame Verantwortung.',
-      'FIDELIA hat alle MiFID-II-Anforderungen vollständig implementiert und bietet Kunden höchste Transparenz und Anlegerschutz.'
+      'J30 hat alle MiFID-II-Anforderungen vollständig implementiert und bietet Kunden höchste Transparenz und Anlegerschutz.'
     ],
     category: 'Regulierung',
     date: '11. Dezember 2023',
@@ -348,7 +348,7 @@ export const blogData: Record<number, BlogPost> = {
       'KI-gestützte Risikomanagement-Systeme können Marktrisiken in Echtzeit überwachen und frühzeitig vor potenziellen Problemen warnen.',
       'Die Integration von KI in den Investmentprozess erfordert sorgfältige Validierung. Backtesting allein reicht nicht aus, um die Robustheit von Algorithmen sicherzustellen.',
       'Mensch-Maschine-Zusammenarbeit ist der erfolgversprechendste Ansatz. KI unterstützt Portfoliomanager bei der Entscheidungsfindung, ersetzt aber nicht das menschliche Urteilsvermögen.',
-      'FIDELIA setzt selektiv KI-Technologien ein, um die Qualität der Anlageentscheidungen zu verbessern und gleichzeitig die Kontrolle durch erfahrene Portfoliomanager zu gewährleisten.'
+      'J30 setzt selektiv KI-Technologien ein, um die Qualität der Anlageentscheidungen zu verbessern und gleichzeitig die Kontrolle durch erfahrene Portfoliomanager zu gewährleisten.'
     ],
     category: 'Technologie',
     date: '8. Dezember 2023',
@@ -371,7 +371,7 @@ export const blogData: Record<number, BlogPost> = {
       'Politische Risiken, Währungsvolatilität und Liquiditätsengpässe sind die Hauptrisikofaktoren. Eine sorgfältige Länder- und Unternehmensanalyse ist unerlässlich.',
       'China bleibt trotz regulatorischer Unsicherheiten der größte Emerging Market. Die Transformation hin zu einer konsumgetriebenen Wirtschaft eröffnet neue Investmentchancen.',
       'Indien und Südostasien profitieren von der Diversifizierung globaler Lieferketten. Die demografische Dividende dieser Regionen verspricht langfristiges Wachstum.',
-      'FIDELIA verfolgt einen selektiven Ansatz bei Emerging-Markets-Investments und nutzt lokale Expertise zur Identifikation attraktiver Opportunitäten bei kontrollierbaren Risiken.'
+      'J30 verfolgt einen selektiven Ansatz bei Emerging-Markets-Investments und nutzt lokale Expertise zur Identifikation attraktiver Opportunitäten bei kontrollierbaren Risiken.'
     ],
     category: 'Marktanalyse',
     date: '6. Dezember 2023',
@@ -394,7 +394,7 @@ export const blogData: Record<number, BlogPost> = {
       'Hypothetische Szenarien ermöglichen die Analyse von Risiken, die historisch noch nicht aufgetreten sind. Klimarisiken oder geopolitische Schocks erfordern kreative Szenarioentwicklung.',
       'Reverse Stresstests identifizieren Szenarien, die zu einem vordefinierten Verlust führen würden. Diese Methode hilft, verborgene Risiken aufzudecken.',
       'Die Kommunikation von Stresstest-Ergebnissen an Anleger und Aufsichtsbehörden erfordert klare, verständliche Darstellungen der Risiken und ihrer Treiber.',
-      'FIDELIA führt regelmäßig umfassende Stresstests durch und nutzt die Ergebnisse zur kontinuierlichen Optimierung des Portfoliorisikomanagements.'
+      'J30 führt regelmäßig umfassende Stresstests durch und nutzt die Ergebnisse zur kontinuierlichen Optimierung des Portfoliorisikomanagements.'
     ],
     category: 'Risikomanagement',
     date: '4. Dezember 2023',
@@ -417,7 +417,7 @@ export const blogData: Record<number, BlogPost> = {
       'Die Green Bond Principles der ICMA setzen Standards für Transparenz und Reporting. Die EU Green Bond Standard wird die Anforderungen weiter präzisieren.',
       'Die Preisgestaltung von Green Bonds zeigt oft ein sogenanntes "Greenium" – eine leichte Prämie gegenüber konventionellen Anleihen desselben Emittenten.',
       'Social Bonds und Sustainability-Linked Bonds erweitern das Spektrum nachhaltiger Anleihen und ermöglichen die Finanzierung sozialer und ganzheitlich nachhaltiger Projekte.',
-      'FIDELIA integriert Green Bonds systematisch in nachhaltige Fixed-Income-Strategien und überwacht die Einhaltung der Umweltziele durch kontinuierliches Impact-Reporting.'
+      'J30 integriert Green Bonds systematisch in nachhaltige Fixed-Income-Strategien und überwacht die Einhaltung der Umweltziele durch kontinuierliches Impact-Reporting.'
     ],
     category: 'Nachhaltigkeit',
     date: '1. Dezember 2023',
@@ -440,7 +440,7 @@ export const blogData: Record<number, BlogPost> = {
       'Zero-Trust-Architekturen setzen sich als Sicherheitsparadigma durch. Das Prinzip "never trust, always verify" minimiert die Angriffsfläche.',
       'Die Schulung von Mitarbeitern ist ein kritischer Erfolgsfaktor. Menschliche Fehler sind oft das schwächste Glied in der Sicherheitskette.',
       'Regulatorische Anforderungen wie DORA (Digital Operational Resilience Act) setzen verbindliche Standards für die IT-Sicherheit von Finanzdienstleistern.',
-      'FIDELIA investiert kontinuierlich in Cybersicherheit und hat robuste Prozesse implementiert, um Kundendaten und Geschäftsprozesse effektiv zu schützen.'
+      'J30 investiert kontinuierlich in Cybersicherheit und hat robuste Prozesse implementiert, um Kundendaten und Geschäftsprozesse effektiv zu schützen.'
     ],
     category: 'Technologie',
     date: '29. November 2023',
@@ -463,7 +463,7 @@ export const blogData: Record<number, BlogPost> = {
       'Der Gesundheitssektor profitiert vom demografischen Wandel. Pharma, Medizintechnik und Gesundheitsdienstleistungen bieten langfristiges Wachstumspotenzial.',
       'Seniorenwirtschaft und altersgerechtes Wohnen werden zu wachsenden Investmentsegmenten. Die Nachfrage nach entsprechenden Immobilien und Dienstleistungen steigt.',
       'Emerging Markets mit junger Bevölkerung bieten einen Gegenpol zu alternden Industrieländern. Die demografische Dividende kann dort langfristiges Wirtschaftswachstum treiben.',
-      'FIDELIA berücksichtigt demografische Trends systematisch in der strategischen Asset Allocation und identifiziert Investmentchancen, die von diesen Entwicklungen profitieren.'
+      'J30 berücksichtigt demografische Trends systematisch in der strategischen Asset Allocation und identifiziert Investmentchancen, die von diesen Entwicklungen profitieren.'
     ],
     category: 'Wirtschaft',
     date: '27. November 2023',
@@ -486,7 +486,7 @@ export const blogData: Record<number, BlogPost> = {
       'Security Token Offerings (STOs) ermöglichen die tokenisierte Emission von Wertpapieren. Dies eröffnet neue Möglichkeiten für die Kapitalbeschaffung und den Sekundärhandel.',
       'Regulatorische Klarheit ist entscheidend für die breite Adoption. Die EU-Regulierung für Märkte in Krypto-Assets (MiCA) schafft einen Rahmen für digitale Assets.',
       'Interoperabilität zwischen verschiedenen Blockchain-Plattformen und die Integration mit bestehenden Systemen sind zentrale Herausforderungen.',
-      'FIDELIA beobachtet die Entwicklung der Blockchain-Technologie aufmerksam und evaluiert kontinuierlich Möglichkeiten zur Effizienzsteigerung im Wertpapierhandel.'
+      'J30 beobachtet die Entwicklung der Blockchain-Technologie aufmerksam und evaluiert kontinuierlich Möglichkeiten zur Effizienzsteigerung im Wertpapierhandel.'
     ],
     category: 'Technologie',
     date: '25. November 2023',
@@ -509,7 +509,7 @@ export const blogData: Record<number, BlogPost> = {
       'Multi-Faktor-Strategien kombinieren verschiedene Faktoren zur Diversifikation. Die Korrelation zwischen Faktoren variiert und kann in Stresssituationen ansteigen.',
       'Die Implementierung von Faktorstrategien erfordert Aufmerksamkeit für Transaktionskosten, Kapazität und die Vermeidung von Crowding-Risiken.',
       'Smart-Beta-ETFs haben Faktor-Investing demokratisiert, aber eine sorgfältige Analyse der spezifischen Implementierung ist unerlässlich.',
-      'FIDELIA setzt selektiv Faktorstrategien ein und kombiniert quantitative Ansätze mit fundamentaler Analyse für eine robuste Portfoliokonstruktion.'
+      'J30 setzt selektiv Faktorstrategien ein und kombiniert quantitative Ansätze mit fundamentaler Analyse für eine robuste Portfoliokonstruktion.'
     ],
     category: 'Strategie',
     date: '23. November 2023',
@@ -532,7 +532,7 @@ export const blogData: Record<number, BlogPost> = {
       'Logistikimmobilien profitieren vom E-Commerce-Wachstum und der Neuausrichtung von Lieferketten. Die Nachfrage nach modernen Logistikflächen bleibt hoch.',
       'Büroimmobilien stehen vor strukturellen Herausforderungen durch hybride Arbeitsmodelle. Moderne, flexible Büroflächen in zentralen Lagen behaupten sich.',
       'Wohnimmobilien bleiben angesichts des Wohnungsmangels in Ballungsräumen ein stabiles Investment. Regulatorische Rahmenbedingungen erfordern jedoch Beachtung.',
-      'FIDELIA managt diversifizierte Immobilien-AIFs und identifiziert attraktive Investmentmöglichkeiten in verschiedenen Nutzungsarten und Standorten.'
+      'J30 managt diversifizierte Immobilien-AIFs und identifiziert attraktive Investmentmöglichkeiten in verschiedenen Nutzungsarten und Standorten.'
     ],
     category: 'Marktanalyse',
     date: '21. November 2023',
@@ -555,7 +555,7 @@ export const blogData: Record<number, BlogPost> = {
       'Kapitalverwaltungsgesellschaften müssen ihre IT-Systeme und -Prozesse auf DORA-Konformität überprüfen und gegebenenfalls anpassen.',
       'Das Management von Drittanbieterrisiken, insbesondere bei Cloud-Diensten, erhält besondere Aufmerksamkeit. Verträge mit kritischen ICT-Dienstleistern müssen überarbeitet werden.',
       'Regelmäßige Tests der digitalen operativen Resilienz werden verpflichtend. Threat-Led Penetration Testing (TLPT) wird für große Institute gefordert.',
-      'FIDELIA hat frühzeitig mit der DORA-Implementierung begonnen und verfügt über robuste ICT-Systeme und -Prozesse, die alle Anforderungen erfüllen.'
+      'J30 hat frühzeitig mit der DORA-Implementierung begonnen und verfügt über robuste ICT-Systeme und -Prozesse, die alle Anforderungen erfüllen.'
     ],
     category: 'Regulierung',
     date: '19. November 2023',
@@ -578,7 +578,7 @@ export const blogData: Record<number, BlogPost> = {
       'Energierohstoffe sind volatil und geopolitisch sensibel. Die Energiewende verändert langfristig die Nachfragestruktur für fossile Brennstoffe.',
       'Industriemetalle profitieren von Elektrifizierung und erneuerbaren Energien. Kupfer, Lithium und Seltene Erden sind kritische Rohstoffe für die Energiewende.',
       'Die Implementierung von Rohstoff-Investments kann über Futures, ETFs, Aktien von Rohstoffunternehmen oder physische Assets erfolgen. Jeder Zugangsweg hat spezifische Eigenschaften.',
-      'FIDELIA bietet strategische Rohstoffallokationen im Rahmen diversifizierter Multi-Asset-Strategien und nutzt verschiedene Implementierungswege je nach Kundenanforderungen.'
+      'J30 bietet strategische Rohstoffallokationen im Rahmen diversifizierter Multi-Asset-Strategien und nutzt verschiedene Implementierungswege je nach Kundenanforderungen.'
     ],
     category: 'Strategie',
     date: '17. November 2023',
@@ -601,7 +601,7 @@ export const blogData: Record<number, BlogPost> = {
       'Staatsanleihen peripherer Euroländer sind besonders betroffen. Die Spreads zu Bundesanleihen reagieren sensibel auf die veränderte Nachfragesituation.',
       'Credit-Märkte müssen sich an höhere Finanzierungskosten und geringere Liquidität anpassen. Die Differenzierung zwischen Emittenten gewinnt an Bedeutung.',
       'Für Fixed-Income-Investoren bedeutet das Ende des QE eine Rückkehr zu fundamentaler Analyse und aktivem Management von Duration und Credit-Risiken.',
-      'FIDELIA hat die Anleihenportfolios auf das veränderte Umfeld ausgerichtet und setzt auf selektive Investments mit attraktivem Risiko-Rendite-Profil.'
+      'J30 hat die Anleihenportfolios auf das veränderte Umfeld ausgerichtet und setzt auf selektive Investments mit attraktivem Risiko-Rendite-Profil.'
     ],
     category: 'Marktanalyse',
     date: '15. November 2023',
@@ -624,7 +624,7 @@ export const blogData: Record<number, BlogPost> = {
       'Die Korrelation zwischen den Ratings verschiedener Anbieter ist überraschend gering. Ein Unternehmen kann bei einer Agentur Bestnoten erhalten und bei einer anderen schlecht abschneiden.',
       'Die Ursachen für Divergenzen liegen in unterschiedlichen Definitionen, Datenquellen, Gewichtungen und Aggregationsmethoden.',
       'Institutionelle Investoren sollten multiple Datenquellen nutzen und eigene ESG-Analysen durchführen, statt sich auf ein einzelnes Rating zu verlassen.',
-      'FIDELIA verfügt über ein eigenes ESG-Research-Team, das verschiedene Datenquellen trianguliert und fundierte Nachhaltigkeitsbewertungen erstellt.'
+      'J30 verfügt über ein eigenes ESG-Research-Team, das verschiedene Datenquellen trianguliert und fundierte Nachhaltigkeitsbewertungen erstellt.'
     ],
     category: 'Nachhaltigkeit',
     date: '13. November 2023',
@@ -647,7 +647,7 @@ export const blogData: Record<number, BlogPost> = {
       'Optionsstrategien ermöglichen asymmetrische Auszahlungsprofile. Protective Puts sichern Portfolios gegen Verluste ab, während Covered Calls zusätzliche Erträge generieren können.',
       'Zinsswaps und Credit Default Swaps dienen der Steuerung von Zins- und Kreditrisiken im Fixed-Income-Bereich.',
       'Die Komplexität von Derivaten erfordert spezialisiertes Know-how und robuste Risikomanagement-Systeme. Gegenparteirisiken und Marginanforderungen müssen sorgfältig überwacht werden.',
-      'FIDELIA setzt Derivate gezielt und verantwortungsvoll ein, um Portfoliorisiken zu managen und die Rendite-Risiko-Struktur zu optimieren.'
+      'J30 setzt Derivate gezielt und verantwortungsvoll ein, um Portfoliorisiken zu managen und die Rendite-Risiko-Struktur zu optimieren.'
     ],
     category: 'Risikomanagement',
     date: '11. November 2023',
@@ -670,7 +670,7 @@ export const blogData: Record<number, BlogPost> = {
       'Die J-Curve-Charakteristik von VC-Investments erfordert Geduld. Frühe negative Renditen weichen typischerweise später positiven Returns.',
       'Vintage-Year-Diversifikation reduziert das Timing-Risiko. Ein kontinuierliches Commitment über mehrere Jahre optimiert das Portfolioergebnis.',
       'Secondaries bieten einen alternativen Zugang mit verkürzter J-Curve und besserer Visibilität der Portfoliounternehmen.',
-      'FIDELIA ermöglicht institutionellen Kunden Zugang zu sorgfältig ausgewählten VC-Strategien und unterstützt bei der optimalen Portfoliointegration.'
+      'J30 ermöglicht institutionellen Kunden Zugang zu sorgfältig ausgewählten VC-Strategien und unterstützt bei der optimalen Portfoliointegration.'
     ],
     category: 'Strategie',
     date: '9. November 2023',
@@ -693,7 +693,7 @@ export const blogData: Record<number, BlogPost> = {
       'Thesaurierende vs. ausschüttende Fonds, Quellensteueroptimierung und die Nutzung von Doppelbesteuerungsabkommen sind wichtige Gestaltungsparameter.',
       'Die Vorabpauschale und die Teilfreistellungen für verschiedene Fondstypen müssen bei der Produktauswahl berücksichtigt werden.',
       'Tax-Loss-Harvesting kann Steuerlast aktiv steuern, erfordert aber sorgfältige Dokumentation und Beachtung von Sperrfristen.',
-      'FIDELIA arbeitet eng mit Steuerexperten zusammen, um für institutionelle Kunden steuereffiziente Anlagestrukturen zu entwickeln.'
+      'J30 arbeitet eng mit Steuerexperten zusammen, um für institutionelle Kunden steuereffiziente Anlagestrukturen zu entwickeln.'
     ],
     category: 'Strategie',
     date: '7. November 2023',
@@ -716,7 +716,7 @@ export const blogData: Record<number, BlogPost> = {
       'Investment-Grade- und High-Yield-Spreads zeigen unterschiedliche Sensitivitäten. High-Yield-Spreads reagieren stärker auf Konjunkturzyklen und Marktstress.',
       'Sektor- und Einzeltitelanalyse sind entscheidend für die Identifikation von Fehlbewertungen. Relative-Value-Strategien nutzen Spread-Divergenzen.',
       'Die Integration von ESG-Faktoren beeinflusst zunehmend Credit-Spreads. Unternehmen mit starkem ESG-Profil handeln tendenziell zu engeren Spreads.',
-      'FIDELIA betreibt intensives Credit-Research und identifiziert attraktive Investmentmöglichkeiten in verschiedenen Marktsegmenten.'
+      'J30 betreibt intensives Credit-Research und identifiziert attraktive Investmentmöglichkeiten in verschiedenen Marktsegmenten.'
     ],
     category: 'Marktanalyse',
     date: '5. November 2023',
@@ -739,7 +739,7 @@ export const blogData: Record<number, BlogPost> = {
       'Robo-Advisory demokratisiert systematische Anlagestrategien. Regelbasierte Allokation und automatisches Rebalancing senken die Kosten.',
       'Die Risiken automatisierten Handels zeigen sich in Flash Crashes und unerwarteten Marktdynamiken. Robuste Kontrollen sind unerlässlich.',
       'Regulierung wie MiFID II setzt Anforderungen an algorithmischen Handel: Testverfahren, Notfallschalter und umfassende Dokumentation.',
-      'FIDELIA kombiniert automatisierte Prozesse mit menschlicher Expertise. Algorithmen unterstützen die Entscheidungsfindung, ersetzen aber nicht das Urteil erfahrener Portfoliomanager.'
+      'J30 kombiniert automatisierte Prozesse mit menschlicher Expertise. Algorithmen unterstützen die Entscheidungsfindung, ersetzen aber nicht das Urteil erfahrener Portfoliomanager.'
     ],
     category: 'Technologie',
     date: '3. November 2023',
@@ -762,7 +762,7 @@ export const blogData: Record<number, BlogPost> = {
       'Alternative Anlageklassen wie Private Equity, Infrastruktur und Private Debt bieten Renditepotenzial und Diversifikation, erfordern aber spezifische Expertise.',
       'Die regulatorischen Anforderungen an Pensionsfonds nehmen zu. Solvency-Vorschriften und Berichtspflichten binden Ressourcen.',
       'ESG-Integration wird auch für Pensionsfonds zur Pflicht. Treuhänderische Pflichten umfassen zunehmend die Berücksichtigung von Nachhaltigkeitsrisiken.',
-      'FIDELIA unterstützt Pensionseinrichtungen mit maßgeschneiderten Anlagestrategien, die ihre spezifischen Verpflichtungen und regulatorischen Anforderungen berücksichtigen.'
+      'J30 unterstützt Pensionseinrichtungen mit maßgeschneiderten Anlagestrategien, die ihre spezifischen Verpflichtungen und regulatorischen Anforderungen berücksichtigen.'
     ],
     category: 'Wirtschaft',
     date: '1. November 2023',
@@ -785,7 +785,7 @@ export const blogData: Record<number, BlogPost> = {
       'Transitionsrisiken entstehen durch den Übergang zu einer kohlenstoffarmen Wirtschaft. Regulatorische Änderungen, technologischer Wandel und Marktverschiebungen betreffen zahlreiche Sektoren.',
       'Szenarioanalysen helfen, die Portfolioauswirkungen verschiedener Klimapfade zu verstehen. 1,5°C-, 2°C- und Business-as-usual-Szenarien zeigen unterschiedliche Implikationen.',
       'Carbon Footprinting und Implied Temperature Ratings sind Instrumente zur Messung der Klimaausrichtung von Portfolios.',
-      'FIDELIA hat Klimarisiken systematisch in den Investmentprozess integriert und berichtet transparent über die Klimaausrichtung der verwalteten Portfolios.'
+      'J30 hat Klimarisiken systematisch in den Investmentprozess integriert und berichtet transparent über die Klimaausrichtung der verwalteten Portfolios.'
     ],
     category: 'Nachhaltigkeit',
     date: '30. Oktober 2023',
@@ -808,7 +808,7 @@ export const blogData: Record<number, BlogPost> = {
       'Momentum-Strategien folgen Preistrends, während Volatility-Strategien die Prämie für Volatilitätsrisiko ernten.',
       'Die Kombination verschiedener alternativer Risikoprämien in einem Portfolio kann attraktive risikoadjustierte Renditen bei geringer Korrelation zu traditionellen Assets liefern.',
       'Die Implementierung erfordert sorgfältige Kontrolle von Transaktionskosten und Kapazitätsgrenzen. Überlaufene Strategien können an Wirksamkeit verlieren.',
-      'FIDELIA integriert alternative Risikoprämien selektiv in Multi-Asset-Strategien und nutzt ihre diversifizierenden Eigenschaften zur Portfoliooptimierung.'
+      'J30 integriert alternative Risikoprämien selektiv in Multi-Asset-Strategien und nutzt ihre diversifizierenden Eigenschaften zur Portfoliooptimierung.'
     ],
     category: 'Strategie',
     date: '28. Oktober 2023',
@@ -831,7 +831,7 @@ export const blogData: Record<number, BlogPost> = {
       'Eine Kultur der Compliance beginnt im Top-Management. Tone from the top und klare Verantwortlichkeiten sind essentiell.',
       'Schulungen und Awareness-Programme stellen sicher, dass alle Mitarbeiter ihre regulatorischen Pflichten verstehen und einhalten.',
       'Technologie unterstützt das Compliance-Management durch automatisiertes Monitoring, Workflow-Systeme und Reporting-Tools.',
-      'FIDELIA hat eine robuste Compliance-Infrastruktur aufgebaut, die höchsten regulatorischen Standards entspricht und kontinuierlich weiterentwickelt wird.'
+      'J30 hat eine robuste Compliance-Infrastruktur aufgebaut, die höchsten regulatorischen Standards entspricht und kontinuierlich weiterentwickelt wird.'
     ],
     category: 'Regulierung',
     date: '26. Oktober 2023',
@@ -854,7 +854,7 @@ export const blogData: Record<number, BlogPost> = {
       'Sektoranalyse und Einzeltitelselektion sind entscheidend. Nicht alle High-Yield-Emittenten sind gleich – die Bandbreite reicht von Fallen Angels bis zu strukturell schwachen Unternehmen.',
       'Recovery Rates bei Ausfällen variieren erheblich je nach Besicherung und Unternehmenssektor. Senior Secured Bonds bieten besseren Schutz.',
       'Die Korrelation von High-Yield-Bonds zu Aktien ist höher als bei Investment-Grade-Anleihen. Dies muss bei der Portfoliokonstruktion berücksichtigt werden.',
-      'FIDELIA analysiert High-Yield-Märkte intensiv und identifiziert attraktive Investmentmöglichkeiten bei kontrollierbarem Risiko.'
+      'J30 analysiert High-Yield-Märkte intensiv und identifiziert attraktive Investmentmöglichkeiten bei kontrollierbarem Risiko.'
     ],
     category: 'Marktanalyse',
     date: '24. Oktober 2023',
@@ -877,7 +877,7 @@ export const blogData: Record<number, BlogPost> = {
       'Sichere Verwahrungslösungen sind Voraussetzung für institutionelle Investments. Regulierte Krypto-Verwahrer bieten die notwendige Sicherheit und Compliance.',
       'Die hohe Volatilität von Kryptowährungen erfordert eine sorgfältige Positionierung. Kleine Allokationen können das Portfolio-Risiko-Rendite-Profil beeinflussen.',
       'Tokenisierte Assets jenseits von Kryptowährungen eröffnen neue Möglichkeiten. Security Tokens können traditionelle Vermögenswerte effizienter handelbar machen.',
-      'FIDELIA beobachtet die Entwicklung digitaler Assets aufmerksam und evaluiert kontinuierlich Möglichkeiten und Risiken für institutionelle Investoren.'
+      'J30 beobachtet die Entwicklung digitaler Assets aufmerksam und evaluiert kontinuierlich Möglichkeiten und Risiken für institutionelle Investoren.'
     ],
     category: 'Technologie',
     date: '22. Oktober 2023',
@@ -900,7 +900,7 @@ export const blogData: Record<number, BlogPost> = {
       'Faktorbasierte Attribution ermöglicht ein tieferes Verständnis der Risikoquellen. Stilfaktoren wie Value, Growth oder Momentum werden isoliert.',
       'Fixed-Income-Attribution berücksichtigt spezifische Renditetreiber wie Duration, Credit-Spread und Yield-Curve-Positionierung.',
       'Die Kommunikation der Attribution-Ergebnisse an Investoren schafft Transparenz und stärkt das Vertrauen in den Investmentprozess.',
-      'FIDELIA führt umfassende Performance-Attribution durch und berichtet transparent über die Quellen der Portfoliorendite.'
+      'J30 führt umfassende Performance-Attribution durch und berichtet transparent über die Quellen der Portfoliorendite.'
     ],
     category: 'Risikomanagement',
     date: '20. Oktober 2023',
@@ -923,7 +923,7 @@ export const blogData: Record<number, BlogPost> = {
       'Die Verlagerung von Produktion nach Mexiko, Osteuropa oder Südostasien schafft neue Investmentchancen in diesen Regionen.',
       'Automatisierung und Digitalisierung ermöglichen es, Produktion auch in Hochlohnländern wettbewerbsfähig zu gestalten. Robotik und KI gewinnen an Bedeutung.',
       'Sektorale Gewinner und Verlierer kristallisieren sich heraus. Halbleiter, Batterietechnologie und kritische Rohstoffe stehen im Fokus strategischer Überlegungen.',
-      'FIDELIA analysiert die Implikationen von Lieferkettenveränderungen für verschiedene Sektoren und Regionen und positioniert Portfolios entsprechend.'
+      'J30 analysiert die Implikationen von Lieferkettenveränderungen für verschiedene Sektoren und Regionen und positioniert Portfolios entsprechend.'
     ],
     category: 'Wirtschaft',
     date: '18. Oktober 2023',

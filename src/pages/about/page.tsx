@@ -23,7 +23,7 @@ export default function AboutPage() {
                   Wir schaffen nachhaltige Werte für unsere Mandanten durch professionelle Kapitalverwaltung nach höchsten institutionellen Standards. Unser Fokus liegt auf Transparenz, Risikomanagement und langfristigem Erfolg.
                 </p>
                 <p className="text-neutral-600 leading-relaxed">
-                  Als KAGB-registrierte Kapitalverwaltungsgesellschaft verbinden wir regulatorische Exzellenz mit innovativen Anlagestrategien und persönlicher Betreuung.
+                  Als unabhängige Vermögensverwaltung verbinden wir fundierte Expertise mit innovativen Anlagestrategien und persönlicher Betreuung.
                 </p>
               </div>
 
@@ -33,7 +33,7 @@ export default function AboutPage() {
                 </div>
                 <h2 className="text-3xl font-heading font-bold text-primary mb-6">Unsere Vision</h2>
                 <p className="text-neutral-600 leading-relaxed mb-4">
-                  Wir streben danach, die führende Kapitalverwaltungsgesellschaft für institutionelle und qualifizierte Anleger in Norddeutschland zu werden. Durch kontinuierliche Innovation und höchste Servicequalität setzen wir neue Maßstäbe.
+                  Wir streben danach, eine führende Vermögensverwaltung für institutionelle und qualifizierte Anleger in Süddeutschland zu werden. Durch kontinuierliche Innovation und höchste Servicequalität setzen wir neue Maßstäbe.
                 </p>
                 <p className="text-neutral-600 leading-relaxed">
                   Unser Ziel ist es, langfristige Partnerschaften aufzubauen, die auf Vertrauen, Expertise und messbarem Erfolg basieren.
@@ -100,14 +100,14 @@ export default function AboutPage() {
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                     <i className="ri-government-line text-2xl text-primary"></i>
                   </div>
-                  <h3 className="text-xl font-heading font-bold text-primary">KAGB-Registrierung</h3>
+                  <h3 className="text-xl font-heading font-bold text-primary">Rechtsform</h3>
                 </div>
                 <p className="text-neutral-600 leading-relaxed mb-4">
-                  Registriert nach §44 iVm §2 Abs.4 KAGB als Verwaltungsgesellschaft für Spezial-AIF mit einem verwalteten Vermögen bis zu 500 Millionen Euro.
+                  Gesellschaft mit beschränkter Haftung (GmbH) mit Sitz in Oberhaching. Eingetragen im Handelsregister des Amtsgerichts München.
                 </p>
                 <div className="flex items-center space-x-2 text-accent-gold font-semibold">
                   <i className="ri-check-line"></i>
-                  <span className="text-sm">Vollständig konform</span>
+                  <span className="text-sm">HRB 293622</span>
                 </div>
               </div>
 
@@ -116,14 +116,14 @@ export default function AboutPage() {
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                     <i className="ri-shield-check-line text-2xl text-primary"></i>
                   </div>
-                  <h3 className="text-xl font-heading font-bold text-primary">BaFin-Aufsicht</h3>
+                  <h3 className="text-xl font-heading font-bold text-primary">Handelsregister</h3>
                 </div>
                 <p className="text-neutral-600 leading-relaxed mb-4">
-                  Unterliegen der Aufsicht der Bundesanstalt für Finanzdienstleistungsaufsicht. Regelmäßige Prüfungen und vollständige Compliance mit allen Vorgaben.
+                  Eingetragen im Handelsregister des Amtsgerichts München unter HRB 293622. Transparente Unternehmensstruktur und klare Governance.
                 </p>
                 <div className="flex items-center space-x-2 text-accent-gold font-semibold">
                   <i className="ri-check-line"></i>
-                  <span className="text-sm">Kontinuierlich überwacht</span>
+                  <span className="text-sm">Öffentlich einsehbar</span>
                 </div>
               </div>
 

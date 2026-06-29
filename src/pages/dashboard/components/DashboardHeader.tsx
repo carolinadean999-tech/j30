@@ -40,12 +40,12 @@ export default function DashboardHeader() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-amber-400 to-amber-600 rounded-xl blur-lg opacity-50 group-hover:opacity-75 transition-opacity duration-300"></div>
               <div className="relative w-12 h-12 bg-gradient-to-br from-amber-400 via-amber-500 to-amber-600 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-all duration-300 shadow-lg">
-                <span className="text-2xl font-bold text-white">F</span>
+                <span className="text-2xl font-bold text-white">J</span>
               </div>
             </div>
             <div className="hidden sm:block">
               <span className="text-xl font-heading font-bold text-primary">
-                FIDELIA
+                J30
               </span>
               <p className="text-xs text-accent-gold font-semibold -mt-1">Kundenportal</p>
             </div>

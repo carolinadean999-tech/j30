@@ -2,14 +2,14 @@ export default function Timeline() {
   const milestones = [
     {
       year: '2010',
-      title: 'Gründung in Hamburg',
-      description: 'Gründung der FIDELIA Kapitalverwaltungsgesellschaft mbH mit Fokus auf institutionelle Kapitalverwaltung. BaFin-ID: 10146931.',
+      title: 'Gründung in Oberhaching',
+      description: 'Gründung der J30 Vermögensverwaltung mit Fokus auf institutionelle Kapitalverwaltung. Handelsregister: HRB 293622.',
       icon: 'ri-building-line'
     },
     {
       year: '2011',
-      title: 'KAGB-Registrierung',
-      description: 'Erfolgreiche Registrierung nach §44 iVm §2 Abs.4 KAGB als Verwaltungsgesellschaft für Spezial-AIF. Aufnahme der regulierten Geschäftstätigkeit unter BaFin-Aufsicht.',
+      title: 'Aufbau des Portfoliomanagements',
+      description: 'Etablierung professioneller Anlage- und Risikomanagement-Prozesse für die Vermögensverwaltung institutioneller und privater Mandate.',
       icon: 'ri-shield-check-line'
     },
     {

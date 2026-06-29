@@ -42,38 +42,38 @@ export default function Footer() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-accent-gold to-accent-gold-light rounded-xl blur-lg opacity-50"></div>
                 <div className="relative w-14 h-14 bg-gradient-to-br from-accent-gold via-accent-gold-light to-accent-gold rounded-xl flex items-center justify-center shadow-xl">
-                  <span className="text-2xl font-bold text-white">F</span>
+                  <span className="text-2xl font-bold text-white">J</span>
                 </div>
               </div>
               <div className="flex flex-col">
-                <span className="text-2xl font-heading font-bold tracking-tight">FIDELIA</span>
-                <span className="text-sm text-accent-gold font-semibold">Kapitalverwaltung</span>
+                <span className="text-2xl font-heading font-bold tracking-tight">J30</span>
+                <span className="text-sm text-accent-gold font-semibold">Vermögensverwaltung</span>
               </div>
             </div>
             <p className="text-sm text-white/80 leading-relaxed mb-8 max-w-md">
-              Regulierte Kapitalverwaltungsgesellschaft nach KAGB mit Sitz in Hamburg. Professionelle Anlagelösungen für institutionelle und qualifizierte Anleger seit über 15 Jahren.
+              Unabhängige Vermögensverwaltung mit Sitz in Oberhaching. Professionelle Anlagelösungen für institutionelle und qualifizierte Anleger.
             </p>
             
             {/* Trust Badges */}
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/10">
                 <div className="flex items-center space-x-2 mb-2">
-                  <i className="ri-shield-check-line text-xl text-accent-gold"></i>
-                  <p className="text-xs font-bold text-white/90">KAGB Registriert</p>
+                  <i className="ri-building-2-line text-xl text-accent-gold"></i>
+                  <p className="text-xs font-bold text-white/90">Rechtsform</p>
                 </div>
-                <p className="text-xs text-white/60">§44 iVm §2 Abs.4</p>
+                <p className="text-xs text-white/60">GmbH · Oberhaching</p>
               </div>
               <a
-                href="https://portal.mvp.bafin.de/database/InstInfo/institutDetails.do?cmd=loadInstitutAction&institutId=146931"
+                href="https://www.northdata.de/J30%20Verm%C3%B6gensverwaltung%20GmbH,%20Oberhaching/Amtsgericht%20M%C3%BCnchen%20HRB%20293622"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/10 hover:bg-white/10 transition-all duration-300 block"
               >
                 <div className="flex items-center space-x-2 mb-2">
-                  <i className="ri-shield-star-line text-xl text-accent-gold"></i>
-                  <p className="text-xs font-bold text-white/90">BaFin-ID</p>
+                  <i className="ri-building-line text-xl text-accent-gold"></i>
+                  <p className="text-xs font-bold text-white/90">Handelsregister</p>
                 </div>
-                <p className="text-xs text-white/60">10146931 | Bak Nr.: 146931</p>
+                <p className="text-xs text-white/60">HRB 293622 · AG München</p>
               </a>
             </div>
 
@@ -161,8 +161,8 @@ export default function Footer() {
                   <div>
                     <p className="text-xs font-semibold text-white/90 mb-1">Adresse</p>
                     <p className="text-xs text-white/70 leading-relaxed">
-                      Kurze Mühren 20<br />
-                      20095 Hamburg<br />
+                      Grünwalder Weg 28d<br />
+                      82041 Oberhaching<br />
                       Deutschland
                     </p>
                   </div>
@@ -176,7 +176,7 @@ export default function Footer() {
                   </div>
                   <div>
                     <p className="text-xs font-semibold text-white/90 mb-1">Telefon</p>
-                    <p className="text-xs text-white/70">+49 (0) 40 334 668098</p>
+                    <p className="text-xs text-white/70">+49 (0) 30 22955248</p>
                   </div>
                 </div>
               </div>
@@ -186,9 +186,9 @@ export default function Footer() {
                   <div className="w-10 h-10 bg-accent-gold/20 rounded-lg flex items-center justify-center flex-shrink-0">
                     <i className="ri-mail-line text-lg text-accent-gold"></i>
                   </div>
-                  <div>
+                  <div className="min-w-0">
                     <p className="text-xs font-semibold text-white/90 mb-1">E-Mail</p>
-                    <p className="text-xs text-white/70">info@fidelia-kapital.com</p>
+                    <p className="text-xs text-white/70 break-all">kontakt@j30vermogensverwaltung.com</p>
                   </div>
                 </div>
               </div>
@@ -202,40 +202,40 @@ export default function Footer() {
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-accent-gold/30 transition-all duration-300">
               <div className="flex items-center space-x-4">
                 <div className="w-14 h-14 bg-gradient-to-br from-accent-gold/20 to-accent-gold-light/20 rounded-xl flex items-center justify-center">
-                  <i className="ri-shield-check-line text-2xl text-accent-gold"></i>
+                  <i className="ri-building-2-line text-2xl text-accent-gold"></i>
                 </div>
                 <div>
-                  <p className="text-xs text-white/60 font-medium mb-1">Registrierung</p>
-                  <p className="text-sm text-white font-bold">§44 iVm §2 Abs.4 KAGB</p>
+                  <p className="text-xs text-white/60 font-medium mb-1">Rechtsform</p>
+                  <p className="text-sm text-white font-bold">GmbH</p>
                 </div>
               </div>
             </div>
-            
+
             <a
-              href="https://portal.mvp.bafin.de/database/InstInfo/institutDetails.do?cmd=loadInstitutAction&institutId=146931"
+              href="https://www.northdata.de/J30%20Verm%C3%B6gensverwaltung%20GmbH,%20Oberhaching/Amtsgericht%20M%C3%BCnchen%20HRB%20293622"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-accent-gold/30 transition-all duration-300 block"
             >
               <div className="flex items-center space-x-4">
                 <div className="w-14 h-14 bg-gradient-to-br from-accent-gold/20 to-accent-gold-light/20 rounded-xl flex items-center justify-center">
-                  <i className="ri-shield-star-line text-2xl text-accent-gold"></i>
+                  <i className="ri-building-line text-2xl text-accent-gold"></i>
                 </div>
                 <div>
-                  <p className="text-xs text-white/60 font-medium mb-1">BaFin-ID</p>
-                  <p className="text-sm text-white font-bold">10146931 | Bak Nr.: 146931</p>
+                  <p className="text-xs text-white/60 font-medium mb-1">Handelsregister</p>
+                  <p className="text-sm text-white font-bold">HRB 293622</p>
                 </div>
               </div>
             </a>
-            
+
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-accent-gold/30 transition-all duration-300">
               <div className="flex items-center space-x-4">
                 <div className="w-14 h-14 bg-gradient-to-br from-accent-gold/20 to-accent-gold-light/20 rounded-xl flex items-center justify-center">
-                  <i className="ri-global-line text-2xl text-accent-gold"></i>
+                  <i className="ri-scales-3-line text-2xl text-accent-gold"></i>
                 </div>
                 <div>
-                  <p className="text-xs text-white/60 font-medium mb-1">LEI-Code</p>
-                  <p className="text-sm text-white font-bold">529900ABCDEFGHIJK123</p>
+                  <p className="text-xs text-white/60 font-medium mb-1">Registergericht</p>
+                  <p className="text-sm text-white font-bold">Amtsgericht München</p>
                 </div>
               </div>
             </div>
@@ -247,7 +247,7 @@ export default function Footer() {
           <div className="flex flex-col lg:flex-row items-center justify-between space-y-6 lg:space-y-0">
             <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
               <p className="text-sm text-white/60">
-                © {currentYear} FIDELIA Kapitalverwaltungsgesellschaft mbH
+                © {currentYear} J30 Vermögensverwaltung
               </p>
               <div className="flex items-center space-x-6">
                 {legal.map((item) => (
@@ -262,7 +262,7 @@ export default function Footer() {
               </div>
             </div>
             <span className="text-sm text-white/60 whitespace-nowrap">
-              Projekt genehmigt durch BaFin
+              HRB 293622 · Amtsgericht München
             </span>
           </div>
         </div>

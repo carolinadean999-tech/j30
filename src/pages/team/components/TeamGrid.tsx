@@ -23,7 +23,7 @@ export default function TeamGrid() {
 
   const team = [
     {
-      name: 'Dr. Michael Schneider',
+      name: 'Fabian Dippner',
       position: 'Geschäftsführer & CEO',
       experience: '20+ Jahre Kapitalmarkterfahrung',
       expertise: ['Strategische Führung', 'Regulatorik', 'Geschäftsentwicklung'],
@@ -43,7 +43,7 @@ export default function TeamGrid() {
       color: 'from-emerald-500 to-emerald-600'
     },
     {
-      name: 'Thomas Müller',
+      name: 'Max Baumgartner',
       position: 'Chief Risk Officer',
       experience: '16+ Jahre Risikomanagement',
       expertise: ['Risikokontrolle', 'Compliance', 'Interne Revision'],
@@ -63,7 +63,7 @@ export default function TeamGrid() {
       color: 'from-amber-500 to-amber-600'
     },
     {
-      name: 'Marcus Klein',
+      name: 'Stefan Wimmer',
       position: 'Head of Fixed Income',
       experience: '15+ Jahre Anleihenmanagement',
       expertise: ['Anleihenstrategien', 'Credit Analysis', 'Duration Management'],

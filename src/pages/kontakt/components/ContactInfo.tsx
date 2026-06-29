@@ -5,17 +5,17 @@ const ContactInfo = () => {
     {
       icon: 'ri-map-pin-line',
       title: 'Adresse',
-      content: ['Kurze Mühren 20', '20095 Hamburg', 'Deutschland']
+      content: ['Grünwalder Weg 28d', '82041 Oberhaching', 'Deutschland']
     },
     {
       icon: 'ri-phone-line',
       title: 'Telefon',
-      content: ['+49 (0) 40 334 668098']
+      content: ['+49 (0) 30 22955248']
     },
     {
       icon: 'ri-mail-line',
       title: 'E-Mail',
-      content: ['info@fidelia-kvg.de']
+      content: ['kontakt@j30vermogensverwaltung.com']
     },
     {
       icon: 'ri-time-line',
@@ -25,11 +25,10 @@ const ContactInfo = () => {
   ];
 
   const legalInfo = [
-    { label: 'BaFin-ID', value: '10146931', link: 'https://portal.mvp.bafin.de/database/InstInfo/institutDetails.do?cmd=loadInstitutAction&institutId=146931' },
-    { label: 'Bak Nr.', value: '146931' },
-    { label: 'LEI', value: 'XXXXXXXXXXXXXXXXXXXXXX' },
-    { label: 'EUID', value: 'DE.XXXXXX.XXXXXXXX' },
-    { label: 'Registrierung', value: 'Nach §44 iVm §2 Abs.4 KAGB' }
+    { label: 'Rechtsform', value: 'GmbH' },
+    { label: 'Handelsregister', value: 'HRB 293622', link: 'https://www.northdata.de/J30%20Verm%C3%B6gensverwaltung%20GmbH,%20Oberhaching/Amtsgericht%20M%C3%BCnchen%20HRB%20293622' },
+    { label: 'Registergericht', value: 'Amtsgericht München' },
+    { label: 'Sitz', value: '82041 Oberhaching' }
   ];
 
   return (
@@ -54,12 +53,12 @@ const ContactInfo = () => {
               <div className="w-12 h-12 flex items-center justify-center bg-accent-gold/10 rounded-lg flex-shrink-0">
                 <i className={`${detail.icon} text-xl text-accent-gold`}></i>
               </div>
-              <div>
+              <div className="min-w-0">
                 <h3 className="text-lg font-heading font-bold text-primary mb-1">
                   {detail.title}
                 </h3>
                 {detail.content.map((line, idx) => (
-                  <p key={idx} className="text-neutral-600">
+                  <p key={idx} className="text-neutral-600 break-all">
                     {line}
                   </p>
                 ))}
@@ -108,7 +107,7 @@ const ContactInfo = () => {
               Wichtiger Hinweis
             </h4>
             <p className="text-sm text-neutral-700 leading-relaxed">
-              Die FIDELIA Kapitalverwaltungsgesellschaft mbH ist nach §44 iVm §2 Abs.4 KAGB registriert und unterliegt der Aufsicht der BaFin. Alle Anlageentscheidungen erfolgen nach strengen regulatorischen Vorgaben.
+              Die J30 Vermögensverwaltung GmbH ist im Handelsregister des Amtsgerichts München unter HRB 293622 eingetragen (Sitz: Oberhaching). Alle Angaben ohne Gewähr.
             </p>
           </div>
         </div>
@@ -122,11 +121,11 @@ const ContactInfo = () => {
           Vereinbaren Sie einen Termin mit unseren Experten für eine individuelle Beratung zu Ihren Anlagezielen.
         </p>
         <a
-          href="tel:+4940334668098"
+          href="tel:+493022955248"
           className="inline-flex items-center space-x-2 text-accent-gold font-semibold hover:text-accent-gold/80 transition-colors duration-300 cursor-pointer"
         >
           <i className="ri-phone-line text-xl"></i>
-          <span>+49 (0) 40 334 668098</span>
+          <span>+49 (0) 30 22955248</span>
         </a>
       </div>
     </motion.div>

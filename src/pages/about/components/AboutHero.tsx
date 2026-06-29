@@ -13,7 +13,7 @@ export default function AboutHero() {
       <div className="absolute inset-0">
         <img 
           src="/images/about-hero-001.jpg"
-          alt="FIDELIA Hamburg"
+          alt="J30 Oberhaching"
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-primary/95 via-primary-dark/90 to-primary/95"></div>
@@ -25,17 +25,17 @@ export default function AboutHero() {
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-6 py-3 mb-8">
             <i className="ri-building-line text-accent-gold text-xl"></i>
-            <span className="text-sm font-semibold text-white">Seit über 15 Jahren in Hamburg</span>
+            <span className="text-sm font-semibold text-white">Seit über 15 Jahren in Oberhaching</span>
           </div>
 
           {/* Headline */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-6 leading-tight">
-            Über <span className="text-accent-gold">FIDELIA</span>
+            Über <span className="text-accent-gold">J30</span>
           </h1>
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-4xl mx-auto leading-relaxed">
-            Regulierte Kapitalverwaltungsgesellschaft mit Fokus auf professionelle Anlagelösungen für institutionelle und qualifizierte Anleger
+            Unabhängige Vermögensverwaltung mit Fokus auf professionelle Anlagelösungen für institutionelle und qualifizierte Anleger
           </p>
 
           {/* Key Facts */}
@@ -45,15 +45,15 @@ export default function AboutHero() {
                 <i className="ri-map-pin-line text-3xl text-accent-gold"></i>
               </div>
               <p className="text-sm text-white/70 mb-2">Standort</p>
-              <p className="text-xl font-bold text-white">Hamburg</p>
+              <p className="text-xl font-bold text-white">Oberhaching</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6">
               <div className="w-14 h-14 bg-gradient-to-br from-accent-gold/20 to-accent-gold-light/20 rounded-xl flex items-center justify-center mx-auto mb-4">
                 <i className="ri-shield-check-line text-3xl text-accent-gold"></i>
               </div>
-              <p className="text-sm text-white/70 mb-2">Regulierung</p>
-              <p className="text-xl font-bold text-white">KAGB §44</p>
+              <p className="text-sm text-white/70 mb-2">Register</p>
+              <p className="text-xl font-bold text-white">HRB 293622</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6">
@@ -61,7 +61,7 @@ export default function AboutHero() {
                 <i className="ri-funds-line text-3xl text-accent-gold"></i>
               </div>
               <p className="text-sm text-white/70 mb-2">Fokus</p>
-              <p className="text-xl font-bold text-white">Spezial-AIF</p>
+              <p className="text-xl font-bold text-white">Vermögensverwaltung</p>
             </div>
           </div>
         </div>

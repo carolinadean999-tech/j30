@@ -44,10 +44,10 @@ export default function CallUsModal({ isOpen, onClose }: CallUsModalProps) {
               <div className="bg-gradient-to-br from-amber-50 to-primary/5 rounded-xl p-6 mb-6 border border-amber-100">
                 <p className="text-sm text-accent-gold700 mb-2 font-medium">Unsere Servicenummer</p>
                 <a
-                  href="tel:+4940334668098"
+                  href="tel:+493022955248"
                   className="text-3xl font-bold text-primary hover:text-accent-gold transition-colors"
                 >
-                  +49 (0) 40 334 668098
+                  +49 (0) 30 22955248
                 </a>
                 <div className="mt-4 flex items-center justify-center gap-4 text-sm text-neutral-600">
                   <div className="flex items-center gap-1">
@@ -60,15 +60,15 @@ export default function CallUsModal({ isOpen, onClose }: CallUsModalProps) {
               {/* Additional Contact Options */}
               <div className="grid grid-cols-2 gap-3 mb-6">
                 <a
-                  href="mailto:info@fidelia-kapital.com"
+                  href="mailto:kontakt@j30vermogensverwaltung.com"
                   className="bg-neutral-100 hover:bg-neutral-200 rounded-xl p-4 transition-colors group"
                 >
                   <i className="ri-mail-line text-2xl text-primary group-hover:text-accent-gold transition-colors mb-2 block"></i>
                   <p className="text-sm font-medium text-neutral-700">E-Mail</p>
-                  <p className="text-xs text-neutral-500">info@fidelia-kapital.com</p>
+                  <p className="text-xs text-neutral-500">kontakt@j30vermogensverwaltung.com</p>
                 </a>
                 <a
-                  href="https://wa.me/4940334668098"
+                  href="https://wa.me/493022955248"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-neutral-100 hover:bg-neutral-200 rounded-xl p-4 transition-colors group"

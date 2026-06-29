@@ -25,7 +25,7 @@ export default function AboutContent() {
     {
       icon: 'ri-shield-check-line',
       title: 'Regulatorische Exzellenz',
-      description: 'Vollständige Konformität mit allen regulatorischen Anforderungen nach KAGB',
+      description: 'Transparente Unternehmensstruktur mit klaren Governance- und Compliance-Prozessen',
       color: 'from-blue-500 to-blue-600'
     },
     {
@@ -63,7 +63,7 @@ export default function AboutContent() {
     },
     {
       title: 'Kapitalmarktexpertise',
-      description: 'Tiefgreifende Kenntnisse internationaler Kapitalmärkte und langjährige Erfahrung in der Verwaltung von Spezial-AIF bis 500 Mio. EUR.',
+      description: 'Tiefgreifende Kenntnisse internationaler Kapitalmärkte und langjährige Erfahrung in der professionellen Vermögensverwaltung.',
       icon: 'ri-global-line',
       image: '/images/expertise-001.jpg'
     }
@@ -81,11 +81,11 @@ export default function AboutContent() {
                 <span className="text-sm font-bold text-primary uppercase tracking-wider">Unser Unternehmen</span>
               </div>
               <h2 className="text-4xl font-heading font-bold text-neutral-900 mb-6">
-                FIDELIA Kapitalverwaltungsgesellschaft mbH
+                J30 Vermögensverwaltung
               </h2>
               <div className="space-y-4 text-lg text-neutral-700 leading-relaxed">
                 <p>
-                  Mit Sitz in Hamburg sind wir eine nach §44 iVm §2 Abs.4 KAGB registrierte Kapitalverwaltungsgesellschaft, die sich auf die professionelle Verwaltung von Spezial-AIF bis 500 Mio. EUR spezialisiert hat.
+                  Mit Sitz in Oberhaching sind wir eine im Handelsregister des Amtsgerichts München (HRB 293622) eingetragene Vermögensverwaltung, die sich auf die professionelle Verwaltung von Vermögen spezialisiert hat.
                 </p>
                 <p>
                   Unser Fokus liegt auf der Bereitstellung maßgeschneiderter Anlagelösungen für institutionelle und qualifizierte Anleger. Dabei verbinden wir regulatorische Exzellenz mit innovativen Anlagestrategien.
@@ -98,18 +98,18 @@ export default function AboutContent() {
               {/* Key Facts */}
               <div className="grid grid-cols-2 gap-4 mt-8">
                 <a
-                  href="https://portal.mvp.bafin.de/database/InstInfo/institutDetails.do?cmd=loadInstitutAction&institutId=146931"
+                  href="https://www.northdata.de/J30%20Verm%C3%B6gensverwaltung%20GmbH,%20Oberhaching/Amtsgericht%20M%C3%BCnchen%20HRB%20293622"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 block"
                 >
                   <div className="flex items-center space-x-3 mb-3">
                     <div className="w-12 h-12 bg-gradient-to-br from-primary/10 to-accent-gold/10 rounded-xl flex items-center justify-center">
-                      <i className="ri-shield-star-line text-2xl text-primary"></i>
+                      <i className="ri-building-line text-2xl text-primary"></i>
                     </div>
                     <div>
-                      <p className="text-sm text-neutral-600 font-medium">BaFin-ID</p>
-                      <p className="text-lg font-bold text-neutral-900">10146931</p>
+                      <p className="text-sm text-neutral-600 font-medium">Handelsregister</p>
+                      <p className="text-lg font-bold text-neutral-900">HRB 293622</p>
                     </div>
                   </div>
                 </a>
@@ -117,11 +117,11 @@ export default function AboutContent() {
                 <div className="bg-white rounded-2xl p-6 shadow-lg">
                   <div className="flex items-center space-x-3 mb-3">
                     <div className="w-12 h-12 bg-gradient-to-br from-primary/10 to-accent-gold/10 rounded-xl flex items-center justify-center">
-                      <i className="ri-global-line text-2xl text-primary"></i>
+                      <i className="ri-scales-3-line text-2xl text-primary"></i>
                     </div>
                     <div>
-                      <p className="text-sm text-neutral-600 font-medium">LEI-Code</p>
-                      <p className="text-xs font-bold text-neutral-900">529900ABC...</p>
+                      <p className="text-sm text-neutral-600 font-medium">Registergericht</p>
+                      <p className="text-sm font-bold text-neutral-900">Amtsgericht München</p>
                     </div>
                   </div>
                 </div>
@@ -133,7 +133,7 @@ export default function AboutContent() {
               <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                 <img 
                   src="/images/office-001.jpg"
-                  alt="FIDELIA Büro Hamburg"
+                  alt="J30 Büro Oberhaching"
                   className="w-full h-[600px] object-cover object-top"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent"></div>

@@ -237,8 +237,8 @@ export default function ContactForm() {
                   <div>
                     <div className="font-semibold mb-1">Adresse</div>
                     <div className="text-white/80 text-sm">
-                      Kurze Mühren 20<br />
-                      20095 Hamburg<br />
+                      Grünwalder Weg 28d<br />
+                      82041 Oberhaching<br />
                       Deutschland
                     </div>
                   </div>
@@ -250,7 +250,7 @@ export default function ContactForm() {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Telefon</div>
-                    <div className="text-white/80 text-sm">+49 (0) 40 334 668098</div>
+                    <div className="text-white/80 text-sm">+49 (0) 30 22955248</div>
                   </div>
                 </div>
 
@@ -258,9 +258,9 @@ export default function ContactForm() {
                   <div className="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0">
                     <i className="ri-mail-line text-xl text-accent-gold"></i>
                   </div>
-                  <div>
+                  <div className="min-w-0">
                     <div className="font-semibold mb-1">E-Mail</div>
-                    <div className="text-white/80 text-sm">info@fidelia-kapital.com</div>
+                    <div className="text-white/80 text-sm break-all">kontakt@j30vermogensverwaltung.com</div>
                   </div>
                 </div>
 
@@ -287,11 +287,11 @@ export default function ContactForm() {
                 Für allgemeine Fragen können Sie auch unsere FAQ-Sektion besuchen oder uns direkt anrufen. Wir sind gerne für Sie da.
               </p>
               <div className="flex items-center space-x-4">
-                <a href="tel:+4940334668098" className="flex-1 px-4 py-3 bg-primary/5 text-primary text-sm font-semibold rounded-lg hover:bg-primary/10 transition-colors duration-200 text-center whitespace-nowrap">
+                <a href="tel:+493022955248" className="flex-1 px-4 py-3 bg-primary/5 text-primary text-sm font-semibold rounded-lg hover:bg-primary/10 transition-colors duration-200 text-center whitespace-nowrap">
                   <i className="ri-phone-line mr-2"></i>
                   Anrufen
                 </a>
-                <a href="mailto:info@fidelia-kapital.com" className="flex-1 px-4 py-3 bg-primary/5 text-primary text-sm font-semibold rounded-lg hover:bg-primary/10 transition-colors duration-200 text-center whitespace-nowrap">
+                <a href="mailto:kontakt@j30vermogensverwaltung.com" className="flex-1 px-4 py-3 bg-primary/5 text-primary text-sm font-semibold rounded-lg hover:bg-primary/10 transition-colors duration-200 text-center whitespace-nowrap">
                   <i className="ri-mail-line mr-2"></i>
                   E-Mail
                 </a>

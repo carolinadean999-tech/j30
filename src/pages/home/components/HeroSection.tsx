@@ -34,7 +34,7 @@ export default function HeroSection() {
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-6 py-3 mb-8 animate-slideDown">
             <i className="ri-shield-check-line text-accent-gold text-xl"></i>
-            <span className="text-sm font-semibold text-white">KAGB-Registrierte Kapitalverwaltung</span>
+            <span className="text-sm font-semibold text-white">Unabhängige Vermögensverwaltung</span>
           </div>
 
           {/* Main Headline */}
@@ -46,12 +46,12 @@ export default function HeroSection() {
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-4xl mx-auto leading-relaxed">
-            Regulierte Anlagelösungen nach KAGB für institutionelle und qualifizierte Anleger
+            Professionelle Anlagelösungen für institutionelle und qualifizierte Anleger
           </p>
 
           {/* Regulatory Notice */}
           <p className="text-sm text-white/70 mb-12 max-w-3xl mx-auto">
-            Registriert nach §44 iVm §2 Abs.4 KAGB | Sitz in Hamburg | Über 15 Jahre Kapitalmarkterfahrung
+            Sitz in Oberhaching | Handelsregister HRB 293622 | Amtsgericht München
           </p>
 
           {/* CTA Buttons */}
@@ -101,7 +101,7 @@ export default function HeroSection() {
                 <i className="ri-shield-check-line text-3xl text-accent-gold"></i>
               </div>
               <p className="text-3xl font-bold text-white mb-2">100%</p>
-              <p className="text-sm text-white/70">KAGB-Konform</p>
+              <p className="text-sm text-white/70">Transparenz</p>
             </div>
           </div>
         </div>

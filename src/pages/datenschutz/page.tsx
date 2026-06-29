@@ -75,14 +75,14 @@ export default function DatenschutzPage() {
                     <h3 className="font-semibold text-lg mb-2">Hinweis zur verantwortlichen Stelle</h3>
                     <p>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p>
                     <p className="mt-2">
-                      FIDELIA Kapitalverwaltungsgesellschaft mbH<br />
-                      Kurze Mühren 20<br />
-                      20095 Hamburg<br />
+                      J30 Vermögensverwaltung<br />
+                      Grünwalder Weg 28d<br />
+                      82041 Oberhaching<br />
                       Deutschland
                     </p>
                     <p className="mt-2">
-                      Telefon: +49 (0) 40 334 668098<br />
-                      E-Mail: info@fidelia-kapital.com
+                      Telefon: +49 (0) 30 22955248<br />
+                      E-Mail: kontakt@j30vermogensverwaltung.com
                     </p>
                     <p className="mt-2">Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, E-Mail-Adressen o. Ä.) entscheidet.</p>
                   </div>
@@ -135,8 +135,8 @@ export default function DatenschutzPage() {
                 <h3 className="font-semibold text-lg text-primary mb-3">Fragen zum Datenschutz?</h3>
                 <p className="text-neutral-700 mb-4">Bei Fragen zur Erhebung, Verarbeitung oder Nutzung Ihrer personenbezogenen Daten, bei Auskünften, Berichtigung, Sperrung oder Löschung von Daten wenden Sie sich bitte an:</p>
                 <p className="text-neutral-700">
-                  <span className="font-semibold">E-Mail:</span> datenschutz@fidelia-kapital.de<br />
-                  <span className="font-semibold">Telefon:</span> +49 (0) 40 334 668098
+                  <span className="font-semibold">E-Mail:</span> kontakt@j30vermogensverwaltung.com<br />
+                  <span className="font-semibold">Telefon:</span> +49 (0) 30 22955248
                 </p>
               </div>
             </div>

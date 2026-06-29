@@ -24,3 +24,7 @@ dist/
 githubbilgileri.txt
 .claude/
 .playwright-mcp/
+
+# Tooling artifacts
+.claude-flow/
+.swarm/

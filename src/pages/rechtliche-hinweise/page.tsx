@@ -36,7 +36,7 @@ export default function RechtlicheHinweisePage() {
                 <h2 className="text-2xl font-heading font-bold text-primary mb-4">Allgemeine Hinweise</h2>
                 <div className="space-y-4 text-neutral-700">
                   <p>Die auf dieser Website bereitgestellten Informationen dienen ausschließlich Informationszwecken und stellen weder eine Anlageberatung noch eine Empfehlung zum Kauf oder Verkauf von Finanzinstrumenten dar. Sie ersetzen nicht die individuelle Beratung durch einen qualifizierten Anlageberater.</p>
-                  <p>Die FIDELIA Kapitalverwaltungsgesellschaft mbH ist als Kapitalverwaltungsgesellschaft nach §44 iVm §2 Abs.4 KAGB registriert und unterliegt der Aufsicht der Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin).</p>
+                  <p>Die J30 Vermögensverwaltung GmbH ist im Handelsregister des Amtsgerichts München unter HRB 293622 eingetragen (Sitz: Oberhaching).</p>
                 </div>
               </div>
 
@@ -76,7 +76,7 @@ export default function RechtlicheHinweisePage() {
               <div>
                 <h2 className="text-2xl font-heading font-bold text-primary mb-4">Keine Garantie oder Gewährleistung</h2>
                 <div className="space-y-4 text-neutral-700">
-                  <p>Die FIDELIA Kapitalverwaltungsgesellschaft mbH übernimmt keine Garantie oder Gewährleistung für:</p>
+                  <p>Die J30 Vermögensverwaltung übernimmt keine Garantie oder Gewährleistung für:</p>
                   <ul className="list-disc list-inside space-y-2 ml-4">
                     <li>Die Richtigkeit, Vollständigkeit oder Aktualität der bereitgestellten Informationen</li>
                     <li>Die Erreichung bestimmter Anlageziele oder Renditen</li>
@@ -106,12 +106,12 @@ export default function RechtlicheHinweisePage() {
 
               {/* Regulatory Information */}
               <div>
-                <h2 className="text-2xl font-heading font-bold text-primary mb-4">Regulatorische Informationen</h2>
+                <h2 className="text-2xl font-heading font-bold text-primary mb-4">Unternehmensangaben</h2>
                 <div className="space-y-4 text-neutral-700">
-                  <p><span className="font-semibold">Registrierung:</span> Die FIDELIA Kapitalverwaltungsgesellschaft mbH ist registriert nach §44 iVm §2 Abs.4 KAGB als Verwaltungsgesellschaft für Spezial-AIF mit einem verwalteten Vermögen bis zu 500 Millionen Euro.</p>
-                  <p><span className="font-semibold">Aufsicht:</span> Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin), Graurheindorfer Straße 108, 53117 Bonn</p>
-                  <p><span className="font-semibold">BaFin-ID:</span> <a href="https://portal.mvp.bafin.de/database/InstInfo/institutDetails.do?cmd=loadInstitutAction&institutId=146931" target="_blank" rel="noopener noreferrer" className="text-accent-gold hover:underline">10146931</a> | Bak Nr.: 146931</p>
-                  <p><span className="font-semibold">LEI-Code:</span> 529900ABCDEFGHIJK123</p>
+                  <p><span className="font-semibold">Rechtsform:</span> Gesellschaft mit beschränkter Haftung (GmbH)</p>
+                  <p><span className="font-semibold">Registergericht:</span> Amtsgericht München</p>
+                  <p><span className="font-semibold">Handelsregisternummer:</span> <a href="https://www.northdata.de/J30%20Verm%C3%B6gensverwaltung%20GmbH,%20Oberhaching/Amtsgericht%20M%C3%BCnchen%20HRB%20293622" target="_blank" rel="noopener noreferrer" className="text-accent-gold hover:underline">HRB 293622</a></p>
+                  <p><span className="font-semibold">Sitz:</span> 82041 Oberhaching</p>
                 </div>
               </div>
 
@@ -126,7 +126,7 @@ export default function RechtlicheHinweisePage() {
                     <li>Wesentliche Anlegerinformationen (Key Investor Information Document - KIID)</li>
                     <li>Jahres- und Halbjahresberichte</li>
                   </ul>
-                  <p className="mt-4">Diese Dokumente sind kostenlos bei der FIDELIA Kapitalverwaltungsgesellschaft mbH erhältlich und können auf Anfrage zugesandt werden.</p>
+                  <p className="mt-4">Diese Dokumente sind kostenlos bei der J30 Vermögensverwaltung erhältlich und können auf Anfrage zugesandt werden.</p>
                 </div>
               </div>
 
@@ -136,9 +136,9 @@ export default function RechtlicheHinweisePage() {
                 <div className="space-y-4 text-neutral-700">
                   <p>Sollten Sie Anlass zu einer Beschwerde haben, können Sie sich jederzeit an uns wenden:</p>
                   <p className="mt-2">
-                    <span className="font-semibold">E-Mail:</span> beschwerde@fidelia-kapital.de<br />
-                    <span className="font-semibold">Telefon:</span> +49 (0) 40 334 668098<br />
-                    <span className="font-semibold">Schriftlich:</span> FIDELIA Kapitalverwaltungsgesellschaft mbH, Kurze Mühren 20, 20095 Hamburg
+                    <span className="font-semibold">E-Mail:</span> kontakt@j30vermogensverwaltung.com<br />
+                    <span className="font-semibold">Telefon:</span> +49 (0) 30 22955248<br />
+                    <span className="font-semibold">Schriftlich:</span> J30 Vermögensverwaltung, Grünwalder Weg 28d, 82041 Oberhaching
                   </p>
                   <p className="mt-4">Wir werden Ihre Beschwerde umgehend prüfen und uns bemühen, diese innerhalb angemessener Frist zu beantworten.</p>
                 </div>
@@ -148,7 +148,7 @@ export default function RechtlicheHinweisePage() {
               <div>
                 <h2 className="text-2xl font-heading font-bold text-primary mb-4">Urheberrecht und Nutzungsrechte</h2>
                 <div className="space-y-4 text-neutral-700">
-                  <p>Alle auf dieser Website veröffentlichten Inhalte (Texte, Bilder, Grafiken, Logos, etc.) sind urheberrechtlich geschützt. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung der FIDELIA Kapitalverwaltungsgesellschaft mbH.</p>
+                  <p>Alle auf dieser Website veröffentlichten Inhalte (Texte, Bilder, Grafiken, Logos, etc.) sind urheberrechtlich geschützt. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung der J30 Vermögensverwaltung.</p>
                 </div>
               </div>
 
@@ -157,8 +157,8 @@ export default function RechtlicheHinweisePage() {
                 <h3 className="font-semibold text-lg text-primary mb-3">Fragen zu rechtlichen Hinweisen?</h3>
                 <p className="text-neutral-700 mb-4">Bei Fragen zu den rechtlichen Hinweisen oder für weitere Informationen kontaktieren Sie uns bitte:</p>
                 <div className="space-y-2 text-neutral-700">
-                  <p><span className="font-semibold">E-Mail:</span> legal@fidelia-kapital.de</p>
-                  <p><span className="font-semibold">Telefon:</span> +49 (0) 40 334 668098</p>
+                  <p><span className="font-semibold">E-Mail:</span> kontakt@j30vermogensverwaltung.com</p>
+                  <p><span className="font-semibold">Telefon:</span> +49 (0) 30 22955248</p>
                 </div>
               </div>
             </div>

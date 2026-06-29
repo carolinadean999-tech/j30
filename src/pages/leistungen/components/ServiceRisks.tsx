@@ -45,7 +45,7 @@ const ServiceRisks = ({ risks }: ServiceRisksProps) => {
                   Wichtiger Risikohinweis
                 </h3>
                 <p className="text-amber-800 leading-relaxed">
-                  Jede Kapitalanlage ist mit Risiken verbunden. Die nachfolgenden Informationen dienen der vollständigen Transparenz und entsprechen den Anforderungen nach KAGB. Bitte lesen Sie diese sorgfältig durch.
+                  Jede Kapitalanlage ist mit Risiken verbunden. Die nachfolgenden Informationen dienen der vollständigen Transparenz. Bitte lesen Sie diese sorgfältig durch.
                 </p>
               </div>
             </div>

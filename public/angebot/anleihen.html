@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anleihenempfehlungen - FIDELIA Kapitalverwaltungsgesellschaft mbH</title>
+    <title>Anleihenempfehlungen - J30 Vermögensverwaltung</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.min.css">
     <style>
@@ -561,7 +561,7 @@
         <div class="form-grid">
             <div class="form-group">
                 <label class="form-label">Firmenname</label>
-                <input type="text" class="form-input" id="firmenname" value="FIDELIA">
+                <input type="text" class="form-input" id="firmenname" value="J30">
             </div>
             <div class="form-group">
                 <label class="form-label">Tagline</label>
@@ -604,7 +604,7 @@
             </div>
             <div class="form-group">
                 <label class="form-label">Risiko & Sicherheit</label>
-                <textarea class="form-input form-textarea" id="risikoSicherheit">Anleihen bieten planbare Erträge und geringere Volatilität als Aktien. Unsere Auswahl konzentriert sich auf Emittenten mit soliden Ratings. Alle Anleihen wurden nach FIDELIA-Qualitätskriterien geprüft und diversifizieren Ihr Portfolio optimal.</textarea>
+                <textarea class="form-input form-textarea" id="risikoSicherheit">Anleihen bieten planbare Erträge und geringere Volatilität als Aktien. Unsere Auswahl konzentriert sich auf Emittenten mit soliden Ratings. Alle Anleihen wurden nach J30-Qualitätskriterien geprüft und diversifizieren Ihr Portfolio optimal.</textarea>
             </div>
             <div class="form-group">
                 <label class="form-label">Empfehlung</label>
@@ -648,10 +648,10 @@
                     <div class="company-section">
                         <div class="logo-container">
                             <div class="logo-glow"></div>
-                            <div class="logo"><span>F</span></div>
+                            <div class="logo"><span>J</span></div>
                         </div>
                         <div>
-                            <h1 class="company-name" id="output-firmenname">FIDELIA</h1>
+                            <h1 class="company-name" id="output-firmenname">J30</h1>
                             <p class="company-tagline" id="output-tagline">Kapitalverwaltung</p>
                         </div>
                     </div>
@@ -713,15 +713,15 @@
                 <div class="contact-card">
                     <h4 class="card-title"><i class="ri-customer-service-2-line"></i> Ihr Ansprechpartner</h4>
                     <div class="card-text">
-                        <strong>FIDELIA Kapitalverwaltungsgesellschaft mbH</strong><br>
-                        Kurze Mühren 20, 20095 Hamburg<br><br>
+                        <strong>J30 Vermögensverwaltung</strong><br>
+                        Grünwalder Weg 28d, 82041 Oberhaching<br><br>
                         <strong>Kontakt:</strong><br>
-                        Tel: +49 (0) 40 334 668098<br>
-                        E-Mail: info@fidelia-kapital.com
+                        Tel: +49 (0) 30 22955248<br>
+                        E-Mail: kontakt@j30vermogensverwaltung.com
                     </div>
                     <div class="trust-badges">
-                        <span class="trust-badge"><i class="ri-shield-check-line"></i> KAGB Registriert</span>
-                        <span class="trust-badge"><i class="ri-shield-star-line"></i> BaFin-ID: 10146931</span>
+                        <span class="trust-badge"><i class="ri-shield-check-line"></i> HRB 293622</span>
+                        <span class="trust-badge"><i class="ri-shield-star-line"></i> Handelsregister: HRB 293622</span>
                     </div>
                 </div>
                 <div class="recommendation-card">
@@ -739,7 +739,7 @@
         </div>
 
         <div class="footer">
-            <span>© 2026 FIDELIA Kapitalverwaltungsgesellschaft mbH • Hamburg</span>
+            <span>© 2026 J30 Vermögensverwaltung • Oberhaching</span>
             <span>Stand: Januar 2026 | Dokument: AN-2026-01 | Seite 1/1</span>
         </div>
     </div>
@@ -897,11 +897,11 @@
                     const element = document.getElementById(id);
                     if (element) daten.felder[id] = element.value;
                 });
-                localStorage.setItem('fidelia-anleihen-dokument', JSON.stringify(daten));
+                localStorage.setItem('j30-anleihen-dokument', JSON.stringify(daten));
             },
 
             ladeGespeicherteDaten: function() {
-                const gespeichert = localStorage.getItem('fidelia-anleihen-dokument');
+                const gespeichert = localStorage.getItem('j30-anleihen-dokument');
                 if (gespeichert) {
                     const daten = JSON.parse(gespeichert);
                     Object.keys(daten.felder).forEach(id => {

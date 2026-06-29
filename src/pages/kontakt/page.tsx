@@ -67,22 +67,22 @@ const KontaktPage = () => {
     {
       icon: 'ri-phone-line',
       title: 'Telefon',
-      content: '+49 (0) 40 334 668098',
+      content: '+49 (0) 30 22955248',
       description: 'Mo-Fr: 9:00 - 18:00 Uhr',
       gradient: 'from-blue-500 to-blue-600'
     },
     {
       icon: 'ri-mail-line',
       title: 'E-Mail',
-      content: 'info@fidelia-kapital.com',
+      content: 'kontakt@j30vermogensverwaltung.com',
       description: 'Antwort innerhalb von 24h',
       gradient: 'from-emerald-500 to-emerald-600'
     },
     {
       icon: 'ri-map-pin-line',
       title: 'Adresse',
-      content: 'Kurze Mühren 20',
-      description: '20095 Hamburg, Deutschland',
+      content: 'Grünwalder Weg 28d',
+      description: '82041 Oberhaching, Deutschland',
       gradient: 'from-amber-500 to-amber-600'
     },
     {
@@ -95,11 +95,11 @@ const KontaktPage = () => {
   ];
 
   const mainOffice = {
-    city: 'Hamburg',
+    city: 'Oberhaching',
     type: 'Hauptsitz',
-    address: 'Kurze Mühren 20, 20095 Hamburg',
-    phone: '+49 (0) 40 334 668098',
-    email: 'info@fidelia-kapital.com',
+    address: 'Grünwalder Weg 28d, 82041 Oberhaching',
+    phone: '+49 (0) 30 22955248',
+    email: 'kontakt@j30vermogensverwaltung.com',
     image: '/images/office1.jpg',
     features: [
       { icon: 'ri-building-4-line', text: 'Modernes Bürogebäude' },
@@ -193,7 +193,7 @@ const KontaktPage = () => {
                     </div>
                     
                     <h3 className="text-lg font-heading font-bold text-primary mb-3">{method.title}</h3>
-                    <p className="text-base font-semibold text-neutral-800 mb-2">{method.content}</p>
+                    <p className="text-base font-semibold text-neutral-800 mb-2 break-all">{method.content}</p>
                     <p className="text-sm text-neutral-600">{method.description}</p>
                   </div>
                 </motion.div>
@@ -405,14 +405,14 @@ const KontaktPage = () => {
                 {/* Map */}
                 <div className="bg-white rounded-3xl overflow-hidden shadow-xl border border-neutral-100 h-[400px]">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2369.8!2d9.9936!3d53.5508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18f1adf2b4e3d%3A0x4263df27bd63bc0!2sKurze%20M%C3%BChren%2020%2C%2020095%20Hamburg%2C%20Germany!5e0!3m2!1sen!2sde!4v1704365000000!5m2!1sen!2sde"
+                    src="https://maps.google.com/maps?q=Gr%C3%BCnwalder%20Weg%2028d%2C%2082041%20Oberhaching%2C%20Germany&t=&z=15&ie=UTF8&iwloc=&output=embed"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="FIDELIA Standort Hamburg - Kurze Mühren 20"
+                    title="J30 Standort Oberhaching - Grünwalder Weg 28d"
                   ></iframe>
                 </div>
 
@@ -427,7 +427,7 @@ const KontaktPage = () => {
                       </div>
                       <div>
                         <p className="text-sm text-white/70 mb-1">Rufen Sie uns an</p>
-                        <p className="font-bold text-lg">+49 (0) 40 334 668098</p>
+                        <p className="font-bold text-lg">+49 (0) 30 22955248</p>
                       </div>
                     </div>
 
@@ -435,9 +435,9 @@ const KontaktPage = () => {
                       <div className="w-12 h-12 bg-accent-gold rounded-xl flex items-center justify-center flex-shrink-0">
                         <i className="ri-mail-line text-xl text-primary"></i>
                       </div>
-                      <div>
+                      <div className="min-w-0">
                         <p className="text-sm text-white/70 mb-1">Schreiben Sie uns</p>
-                        <p className="font-bold text-lg">info@fidelia-kapital.com</p>
+                        <p className="font-bold text-lg break-all">kontakt@j30vermogensverwaltung.com</p>
                       </div>
                     </div>
 
@@ -458,7 +458,7 @@ const KontaktPage = () => {
           </div>
         </section>
 
-        {/* Main Office - Hamburg */}
+        {/* Main Office - Oberhaching */}
         <section className="py-24 bg-gradient-to-b from-neutral-50 via-white to-neutral-50 relative overflow-hidden">
           {/* Background Decorations */}
           <div className="absolute inset-0 pointer-events-none">
@@ -479,7 +479,7 @@ const KontaktPage = () => {
                 <span className="text-sm font-semibold text-primary">Unser Standort</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-6">
-                Besuchen Sie uns in Hamburg
+                Besuchen Sie uns in Oberhaching
               </h2>
               <p className="text-xl text-neutral-600 max-w-3xl mx-auto leading-relaxed">
                 Unser Hauptsitz im Herzen der Hansestadt – zentral gelegen und hervorragend erreichbar.
@@ -574,7 +574,7 @@ const KontaktPage = () => {
 
                     {/* CTA Button */}
                     <motion.a
-                      href="https://www.google.com/maps/dir//Kurze+M%C3%BChren+20,+20095+Hamburg,+Germany"
+                      href="https://www.google.com/maps/dir//Gr%C3%BCnwalder+Weg+28d,+82041+Oberhaching,+Germany"
                       target="_blank"
                       rel="noopener noreferrer"
                       whileHover={{ scale: 1.02 }}

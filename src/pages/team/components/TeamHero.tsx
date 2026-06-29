@@ -13,7 +13,7 @@ export default function TeamHero() {
       <div className="absolute inset-0">
         <img 
           src="/images/team-hero-001.jpg"
-          alt="FIDELIA Team"
+          alt="J30 Team"
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-primary/95 via-primary-dark/90 to-primary/95"></div>

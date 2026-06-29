@@ -24,8 +24,8 @@ export default function WhyChooseUs() {
   const reasons = [
     {
       icon: 'ri-shield-check-line',
-      title: 'KAGB-Regulierung',
-      description: 'Vollständig reguliert nach §44 iVm §2 Abs.4 KAGB. Höchste Compliance-Standards und transparente Governance-Strukturen für Ihre Sicherheit.',
+      title: 'Transparente Strukturen',
+      description: 'Klare Governance- und Compliance-Strukturen sowie transparente Prozesse für Ihre Sicherheit.',
       image: '/images/regulation-001.jpg',
       stats: { value: '100%', label: 'Konform' }
     },
@@ -73,7 +73,7 @@ export default function WhyChooseUs() {
         <div className={`text-center mb-20 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-primary/10 to-accent-gold/10 rounded-full px-6 py-3 mb-6">
             <i className="ri-star-line text-primary text-xl"></i>
-            <span className="text-sm font-bold text-primary uppercase tracking-wider">Warum FIDELIA</span>
+            <span className="text-sm font-bold text-primary uppercase tracking-wider">Warum J30</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-neutral-900 mb-6">
             Ihr Partner für <span className="gradient-text">professionelle Kapitalverwaltung</span>

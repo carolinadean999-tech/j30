@@ -22,9 +22,9 @@ export default function ImpressumPage() {
               <div>
                 <h2 className="text-2xl font-heading font-bold text-primary mb-4">Angaben gemäß § 5 TMG</h2>
                 <div className="space-y-2 text-neutral-700">
-                  <p className="font-semibold text-lg">FIDELIA Kapitalverwaltungsgesellschaft mbH</p>
-                  <p>Kurze Mühren 20</p>
-                  <p>20095 Hamburg</p>
+                  <p className="font-semibold text-lg">J30 Vermögensverwaltung</p>
+                  <p>Grünwalder Weg 28d</p>
+                  <p>82041 Oberhaching</p>
                   <p>Deutschland</p>
                 </div>
               </div>
@@ -33,9 +33,8 @@ export default function ImpressumPage() {
               <div>
                 <h2 className="text-2xl font-heading font-bold text-primary mb-4">Kontakt</h2>
                 <div className="space-y-2 text-neutral-700">
-                  <p><span className="font-semibold">Telefon:</span> +49 (0) 40 334 668098</p>
-                  <p><span className="font-semibold">Telefax:</span> +49 (0) 40 334 668099</p>
-                  <p><span className="font-semibold">E-Mail:</span> info@fidelia-kapital.com</p>
+                  <p><span className="font-semibold">Telefon:</span> +49 (0) 30 22955248</p>
+                  <p><span className="font-semibold">E-Mail:</span> kontakt@j30vermogensverwaltung.com</p>
                 </div>
               </div>
 
@@ -43,10 +42,8 @@ export default function ImpressumPage() {
               <div>
                 <h2 className="text-2xl font-heading font-bold text-primary mb-4">Registereintrag</h2>
                 <div className="space-y-2 text-neutral-700">
-                  <p><span className="font-semibold">BaFin-ID:</span> <a href="https://portal.mvp.bafin.de/database/InstInfo/institutDetails.do?cmd=loadInstitutAction&institutId=146931" target="_blank" rel="noopener noreferrer" className="text-accent-gold hover:underline">10146931</a></p>
-                  <p><span className="font-semibold">Bak Nr.:</span> 146931</p>
-                  <p><span className="font-semibold">LEI-Code:</span> 529900ABCDEFGHIJK123</p>
-                  <p><span className="font-semibold">EUID:</span> DE.HRB.123456.HH</p>
+                  <p><span className="font-semibold">Registergericht:</span> Amtsgericht München</p>
+                  <p><span className="font-semibold">Handelsregisternummer:</span> <a href="https://www.northdata.de/J30%20Verm%C3%B6gensverwaltung%20GmbH,%20Oberhaching/Amtsgericht%20M%C3%BCnchen%20HRB%20293622" target="_blank" rel="noopener noreferrer" className="text-accent-gold hover:underline">HRB 293622</a></p>
                 </div>
               </div>
 
@@ -54,28 +51,8 @@ export default function ImpressumPage() {
               <div>
                 <h2 className="text-2xl font-heading font-bold text-primary mb-4">Vertretungsberechtigte Geschäftsführer</h2>
                 <div className="space-y-2 text-neutral-700">
-                  <p>Dr. Michael Schneider</p>
-                  <p>Thomas Weber</p>
-                </div>
-              </div>
-
-              {/* Regulatory */}
-              <div>
-                <h2 className="text-2xl font-heading font-bold text-primary mb-4">Aufsichtsbehörde</h2>
-                <div className="space-y-2 text-neutral-700">
-                  <p className="font-semibold">Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin)</p>
-                  <p>Graurheindorfer Straße 108</p>
-                  <p>53117 Bonn</p>
-                  <p>Deutschland</p>
-                  <p className="mt-2"><span className="font-semibold">Website:</span> <a href="https://www.bafin.de" target="_blank" rel="noopener noreferrer" className="text-accent-gold hover:underline">www.bafin.de</a></p>
-                </div>
-              </div>
-
-              {/* Registration Details */}
-              <div>
-                <h2 className="text-2xl font-heading font-bold text-primary mb-4">Registrierung</h2>
-                <div className="space-y-2 text-neutral-700">
-                  <p>Die FIDELIA Kapitalverwaltungsgesellschaft mbH ist registriert nach §44 iVm §2 Abs.4 KAGB (Kapitalanlagegesetzbuch) als Verwaltungsgesellschaft für Spezial-AIF mit einem verwalteten Vermögen bis zu 500 Millionen Euro.</p>
+                  <p>Fabian Dippner</p>
+                  <p>Felix Dippner</p>
                 </div>
               </div>
 
@@ -92,9 +69,9 @@ export default function ImpressumPage() {
               <div>
                 <h2 className="text-2xl font-heading font-bold text-primary mb-4">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
                 <div className="space-y-2 text-neutral-700">
-                  <p>Dr. Michael Schneider</p>
-                  <p>Kurze Mühren 20</p>
-                  <p>20095 Hamburg</p>
+                  <p>Fabian Dippner</p>
+                  <p>Grünwalder Weg 28d</p>
+                  <p>82041 Oberhaching</p>
                 </div>
               </div>
 

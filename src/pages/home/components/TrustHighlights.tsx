@@ -25,38 +25,38 @@ export default function TrustHighlights() {
   const highlights = [
     {
       icon: 'ri-building-line',
-      title: 'Sitz in Hamburg',
-      description: 'Kurze Mühren 20, 20095 Hamburg',
+      title: 'Sitz in Oberhaching',
+      description: 'Grünwalder Weg 28d, 82041 Oberhaching',
       detail: 'Traditionsreicher Finanzstandort',
       color: 'from-blue-500 to-blue-600'
     },
     {
-      icon: 'ri-shield-check-line',
-      title: 'KAGB-Registrierung',
-      description: '§44 iVm §2 Abs.4 KAGB',
-      detail: 'Vollständig reguliert',
+      icon: 'ri-building-2-line',
+      title: 'Rechtsform',
+      description: 'GmbH',
+      detail: 'Gesellschaft mit beschränkter Haftung',
       color: 'from-emerald-500 to-emerald-600'
     },
     {
-      icon: 'ri-shield-star-line',
-      title: 'BaFin Registriert',
-      description: 'BaFin-ID: 10146931',
-      detail: 'Bak Nr.: 146931',
+      icon: 'ri-building-line',
+      title: 'Handelsregister',
+      description: 'HRB 293622',
+      detail: 'Amtsgericht München',
       color: 'from-violet-500 to-violet-600',
-      link: 'https://portal.mvp.bafin.de/database/InstInfo/institutDetails.do?cmd=loadInstitutAction&institutId=146931'
+      link: 'https://www.northdata.de/J30%20Verm%C3%B6gensverwaltung%20GmbH,%20Oberhaching/Amtsgericht%20M%C3%BCnchen%20HRB%20293622'
     },
     {
-      icon: 'ri-global-line',
-      title: 'LEI-Code',
-      description: '529900ABCDEFGHIJK123',
-      detail: 'International identifiziert',
+      icon: 'ri-briefcase-line',
+      title: 'Geschäftszweck',
+      description: 'Vermögensverwaltung',
+      detail: 'Verwaltung eigenen Vermögens',
       color: 'from-amber-500 to-amber-600'
     },
     {
-      icon: 'ri-bank-line',
-      title: 'Spezial-AIF',
-      description: 'Bis 500 Mio. EUR',
-      detail: 'Professionelle Verwaltung',
+      icon: 'ri-user-star-line',
+      title: 'Inhabergeführt',
+      description: 'Eigenständig',
+      detail: 'Persönliche Betreuung',
       color: 'from-teal-500 to-teal-600'
     },
     {
@@ -74,7 +74,7 @@ export default function TrustHighlights() {
       <div className="absolute inset-0">
         <img 
           src="/images/hamburg-bg-001.jpg"
-          alt="Hamburg Financial District"
+          alt="Finanzdistrikt"
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-primary/95 via-primary-dark/90 to-primary/95"></div>
@@ -88,10 +88,10 @@ export default function TrustHighlights() {
             <span className="text-sm font-bold text-white uppercase tracking-wider">Vertrauen & Sicherheit</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
-            Reguliert, transparent, <span className="text-accent-gold">vertrauenswürdig</span>
+            Transparent, unabhängig, <span className="text-accent-gold">vertrauenswürdig</span>
           </h2>
           <p className="text-xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-            Ihre Sicherheit steht an erster Stelle – vollständig reguliert und überwacht
+            Ihre Sicherheit steht an erster Stelle – transparent und nachvollziehbar
           </p>
         </div>
 
