@@ -29,7 +29,7 @@ export const blogData: Record<number, BlogPost> = {
       'Für die kommenden Monate erwarten wir eine weitere Normalisierung der Zinsen auf ein nachhaltiges Niveau. Institutionelle Investoren sollten diese Phase nutzen, um ihre Portfolios strategisch neu auszurichten und von den verbesserten Renditeniveaus zu profitieren.'
     ],
     category: 'Marktanalyse',
-    date: '15. Januar 2024',
+    date: '28. Juni 2026',
     readTime: '8 Min.',
     image: '/images/blog1detail.jpg',
     author: {
@@ -52,7 +52,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 hat frühzeitig mit der Umsetzung der neuen Anforderungen begonnen und verfügt über die notwendigen Systeme und Prozesse, um alle regulatorischen Vorgaben vollständig zu erfüllen.'
     ],
     category: 'Regulierung',
-    date: '12. Januar 2024',
+    date: '26. Juni 2026',
     readTime: '6 Min.',
     image: '/images/blog2detail.jpg',
     author: {
@@ -75,7 +75,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 verfolgt einen ganzheitlichen Diversifikationsansatz, der sowohl traditionelle als auch alternative Anlageklassen umfasst und kontinuierlich an die Marktbedingungen angepasst wird.'
     ],
     category: 'Strategie',
-    date: '10. Januar 2024',
+    date: '24. Juni 2026',
     readTime: '10 Min.',
     image: '/images/blog3detail.jpg',
     author: {
@@ -98,7 +98,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 hat ESG-Kriterien fest in alle Investmentprozesse integriert und verfügt über ein spezialisiertes ESG-Research-Team, das kontinuierlich die Nachhaltigkeitsperformance der Portfolios überwacht und optimiert.'
     ],
     category: 'Strategie',
-    date: '8. Januar 2024',
+    date: '22. Juni 2026',
     readTime: '7 Min.',
     image: '/images/blog4detail.jpg',
     author: {
@@ -121,7 +121,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 verfügt über ein spezialisiertes Geopolitik-Research-Team, das kontinuierlich globale Entwicklungen analysiert und deren potenzielle Auswirkungen auf die verwalteten Portfolios bewertet.'
     ],
     category: 'Marktanalyse',
-    date: '5. Januar 2024',
+    date: '20. Juni 2026',
     readTime: '9 Min.',
     image: '/images/blog5detail.jpg',
     author: {
@@ -144,7 +144,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 unterstützt institutionelle Kunden bei der Identifikation und Implementierung geeigneter Inflationsschutzstrategien unter Berücksichtigung individueller Anforderungen.'
     ],
     category: 'Strategie',
-    date: '3. Januar 2024',
+    date: '19. Juni 2026',
     readTime: '8 Min.',
     image: '/images/blog6.jpg',
     author: {
@@ -167,7 +167,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 verfügt über robuste Liquiditätsmanagement-Prozesse und -Systeme, die alle regulatorischen Anforderungen erfüllen und gleichzeitig eine optimale Portfoliosteuerung ermöglichen.'
     ],
     category: 'Regulierung',
-    date: '29. Dezember 2023',
+    date: '17. Juni 2026',
     readTime: '6 Min.',
     image: '/images/blog7.jpg',
     author: {
@@ -190,7 +190,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 erwartet für 2024 eine moderate Wirtschaftserholung und positioniert die verwalteten Portfolios entsprechend für dieses Szenario.'
     ],
     category: 'Wirtschaft',
-    date: '27. Dezember 2023',
+    date: '15. Juni 2026',
     readTime: '11 Min.',
     image: '/images/blog8.jpg',
     author: {
@@ -213,7 +213,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 investiert kontinuierlich in die Digitalisierung ihrer Prozesse und Systeme, um Kunden modernste Services bei höchsten Sicherheitsstandards zu bieten.'
     ],
     category: 'Technologie',
-    date: '22. Dezember 2023',
+    date: '13. Juni 2026',
     readTime: '7 Min.',
     image: '/images/blog9.jpg',
     author: {
@@ -236,7 +236,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 bietet ein umfassendes Spektrum nachhaltiger Anlagestrategien und unterstützt institutionelle Kunden bei der Umsetzung ihrer Nachhaltigkeitsziele.'
     ],
     category: 'Nachhaltigkeit',
-    date: '20. Dezember 2023',
+    date: '11. Juni 2026',
     readTime: '9 Min.',
     image: '/images/blog10.jpg',
     author: {
@@ -259,7 +259,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 bietet institutionellen Investoren Zugang zu sorgfältig ausgewählten Private-Equity-Strategien und unterstützt bei der optimalen Portfoliointegration.'
     ],
     category: 'Marktanalyse',
-    date: '18. Dezember 2023',
+    date: '9. Juni 2026',
     readTime: '10 Min.',
     image: '/images/blog11.jpg',
     author: {
@@ -282,7 +282,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 verfügt über langjährige Erfahrung im Währungsrisikomanagement und bietet maßgeschneiderte Lösungen für institutionelle Kunden mit internationalen Portfolios.'
     ],
     category: 'Risikomanagement',
-    date: '15. Dezember 2023',
+    date: '7. Juni 2026',
     readTime: '8 Min.',
     image: '/images/blog12.jpg',
     author: {
@@ -305,7 +305,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 bietet Zugang zu diversifizierten Infrastrukturportfolios und unterstützt Kunden bei der Integration dieser Anlageklasse in ihre Gesamtallokation.'
     ],
     category: 'Strategie',
-    date: '13. Dezember 2023',
+    date: '5. Juni 2026',
     readTime: '9 Min.',
     image: '/images/blog13.jpg',
     author: {
@@ -328,7 +328,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 hat alle MiFID-II-Anforderungen vollständig implementiert und bietet Kunden höchste Transparenz und Anlegerschutz.'
     ],
     category: 'Regulierung',
-    date: '11. Dezember 2023',
+    date: '3. Juni 2026',
     readTime: '7 Min.',
     image: '/images/blog14.jpg',
     author: {
@@ -351,7 +351,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 setzt selektiv KI-Technologien ein, um die Qualität der Anlageentscheidungen zu verbessern und gleichzeitig die Kontrolle durch erfahrene Portfoliomanager zu gewährleisten.'
     ],
     category: 'Technologie',
-    date: '8. Dezember 2023',
+    date: '1. Juni 2026',
     readTime: '10 Min.',
     image: '/images/blog15.jpg',
     author: {
@@ -374,7 +374,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 verfolgt einen selektiven Ansatz bei Emerging-Markets-Investments und nutzt lokale Expertise zur Identifikation attraktiver Opportunitäten bei kontrollierbaren Risiken.'
     ],
     category: 'Marktanalyse',
-    date: '6. Dezember 2023',
+    date: '31. Mai 2026',
     readTime: '11 Min.',
     image: '/images/blog16.jpg',
     author: {
@@ -397,7 +397,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 führt regelmäßig umfassende Stresstests durch und nutzt die Ergebnisse zur kontinuierlichen Optimierung des Portfoliorisikomanagements.'
     ],
     category: 'Risikomanagement',
-    date: '4. Dezember 2023',
+    date: '29. Mai 2026',
     readTime: '8 Min.',
     image: '/images/blog17.jpg',
     author: {
@@ -420,7 +420,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 integriert Green Bonds systematisch in nachhaltige Fixed-Income-Strategien und überwacht die Einhaltung der Umweltziele durch kontinuierliches Impact-Reporting.'
     ],
     category: 'Nachhaltigkeit',
-    date: '1. Dezember 2023',
+    date: '27. Mai 2026',
     readTime: '7 Min.',
     image: '/images/blog18.jpg',
     author: {
@@ -443,7 +443,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 investiert kontinuierlich in Cybersicherheit und hat robuste Prozesse implementiert, um Kundendaten und Geschäftsprozesse effektiv zu schützen.'
     ],
     category: 'Technologie',
-    date: '29. November 2023',
+    date: '25. Mai 2026',
     readTime: '9 Min.',
     image: '/images/blog19.jpg',
     author: {
@@ -466,7 +466,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 berücksichtigt demografische Trends systematisch in der strategischen Asset Allocation und identifiziert Investmentchancen, die von diesen Entwicklungen profitieren.'
     ],
     category: 'Wirtschaft',
-    date: '27. November 2023',
+    date: '23. Mai 2026',
     readTime: '10 Min.',
     image: '/images/blog20.jpg',
     author: {
@@ -489,7 +489,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 beobachtet die Entwicklung der Blockchain-Technologie aufmerksam und evaluiert kontinuierlich Möglichkeiten zur Effizienzsteigerung im Wertpapierhandel.'
     ],
     category: 'Technologie',
-    date: '25. November 2023',
+    date: '21. Mai 2026',
     readTime: '9 Min.',
     image: '/images/blog21.jpg',
     author: {
@@ -512,7 +512,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 setzt selektiv Faktorstrategien ein und kombiniert quantitative Ansätze mit fundamentaler Analyse für eine robuste Portfoliokonstruktion.'
     ],
     category: 'Strategie',
-    date: '23. November 2023',
+    date: '19. Mai 2026',
     readTime: '11 Min.',
     image: '/images/blog22.jpg',
     author: {
@@ -535,7 +535,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 managt diversifizierte Immobilien-AIFs und identifiziert attraktive Investmentmöglichkeiten in verschiedenen Nutzungsarten und Standorten.'
     ],
     category: 'Marktanalyse',
-    date: '21. November 2023',
+    date: '17. Mai 2026',
     readTime: '10 Min.',
     image: '/images/blog23.jpg',
     author: {
@@ -558,7 +558,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 hat frühzeitig mit der DORA-Implementierung begonnen und verfügt über robuste ICT-Systeme und -Prozesse, die alle Anforderungen erfüllen.'
     ],
     category: 'Regulierung',
-    date: '19. November 2023',
+    date: '15. Mai 2026',
     readTime: '8 Min.',
     image: '/images/blog24.jpg',
     author: {
@@ -581,7 +581,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 bietet strategische Rohstoffallokationen im Rahmen diversifizierter Multi-Asset-Strategien und nutzt verschiedene Implementierungswege je nach Kundenanforderungen.'
     ],
     category: 'Strategie',
-    date: '17. November 2023',
+    date: '13. Mai 2026',
     readTime: '9 Min.',
     image: '/images/blog25.jpg',
     author: {
@@ -604,7 +604,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 hat die Anleihenportfolios auf das veränderte Umfeld ausgerichtet und setzt auf selektive Investments mit attraktivem Risiko-Rendite-Profil.'
     ],
     category: 'Marktanalyse',
-    date: '15. November 2023',
+    date: '12. Mai 2026',
     readTime: '10 Min.',
     image: '/images/blog26.jpg',
     author: {
@@ -627,7 +627,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 verfügt über ein eigenes ESG-Research-Team, das verschiedene Datenquellen trianguliert und fundierte Nachhaltigkeitsbewertungen erstellt.'
     ],
     category: 'Nachhaltigkeit',
-    date: '13. November 2023',
+    date: '10. Mai 2026',
     readTime: '8 Min.',
     image: '/images/blog27.jpg',
     author: {
@@ -650,7 +650,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 setzt Derivate gezielt und verantwortungsvoll ein, um Portfoliorisiken zu managen und die Rendite-Risiko-Struktur zu optimieren.'
     ],
     category: 'Risikomanagement',
-    date: '11. November 2023',
+    date: '8. Mai 2026',
     readTime: '11 Min.',
     image: '/images/blog28.jpg',
     author: {
@@ -673,7 +673,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 ermöglicht institutionellen Kunden Zugang zu sorgfältig ausgewählten VC-Strategien und unterstützt bei der optimalen Portfoliointegration.'
     ],
     category: 'Strategie',
-    date: '9. November 2023',
+    date: '6. Mai 2026',
     readTime: '9 Min.',
     image: '/images/blog29.jpg',
     author: {
@@ -696,7 +696,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 arbeitet eng mit Steuerexperten zusammen, um für institutionelle Kunden steuereffiziente Anlagestrukturen zu entwickeln.'
     ],
     category: 'Strategie',
-    date: '7. November 2023',
+    date: '4. Mai 2026',
     readTime: '10 Min.',
     image: '/images/blog30.jpg',
     author: {
@@ -719,7 +719,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 betreibt intensives Credit-Research und identifiziert attraktive Investmentmöglichkeiten in verschiedenen Marktsegmenten.'
     ],
     category: 'Marktanalyse',
-    date: '5. November 2023',
+    date: '2. Mai 2026',
     readTime: '8 Min.',
     image: '/images/blog31.jpg',
     author: {
@@ -742,7 +742,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 kombiniert automatisierte Prozesse mit menschlicher Expertise. Algorithmen unterstützen die Entscheidungsfindung, ersetzen aber nicht das Urteil erfahrener Portfoliomanager.'
     ],
     category: 'Technologie',
-    date: '3. November 2023',
+    date: '30. April 2026',
     readTime: '9 Min.',
     image: '/images/blog32.jpg',
     author: {
@@ -765,7 +765,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 unterstützt Pensionseinrichtungen mit maßgeschneiderten Anlagestrategien, die ihre spezifischen Verpflichtungen und regulatorischen Anforderungen berücksichtigen.'
     ],
     category: 'Wirtschaft',
-    date: '1. November 2023',
+    date: '28. April 2026',
     readTime: '11 Min.',
     image: '/images/blog33.jpg',
     author: {
@@ -788,7 +788,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 hat Klimarisiken systematisch in den Investmentprozess integriert und berichtet transparent über die Klimaausrichtung der verwalteten Portfolios.'
     ],
     category: 'Nachhaltigkeit',
-    date: '30. Oktober 2023',
+    date: '26. April 2026',
     readTime: '10 Min.',
     image: '/images/blog34.jpg',
     author: {
@@ -811,7 +811,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 integriert alternative Risikoprämien selektiv in Multi-Asset-Strategien und nutzt ihre diversifizierenden Eigenschaften zur Portfoliooptimierung.'
     ],
     category: 'Strategie',
-    date: '28. Oktober 2023',
+    date: '24. April 2026',
     readTime: '9 Min.',
     image: '/images/blog35.jpg',
     author: {
@@ -834,7 +834,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 hat eine robuste Compliance-Infrastruktur aufgebaut, die höchsten regulatorischen Standards entspricht und kontinuierlich weiterentwickelt wird.'
     ],
     category: 'Regulierung',
-    date: '26. Oktober 2023',
+    date: '23. April 2026',
     readTime: '8 Min.',
     image: '/images/blog36.jpg',
     author: {
@@ -857,7 +857,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 analysiert High-Yield-Märkte intensiv und identifiziert attraktive Investmentmöglichkeiten bei kontrollierbarem Risiko.'
     ],
     category: 'Marktanalyse',
-    date: '24. Oktober 2023',
+    date: '21. April 2026',
     readTime: '10 Min.',
     image: '/images/blog37.jpg',
     author: {
@@ -880,7 +880,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 beobachtet die Entwicklung digitaler Assets aufmerksam und evaluiert kontinuierlich Möglichkeiten und Risiken für institutionelle Investoren.'
     ],
     category: 'Technologie',
-    date: '22. Oktober 2023',
+    date: '19. April 2026',
     readTime: '11 Min.',
     image: '/images/blog38.jpg',
     author: {
@@ -903,7 +903,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 führt umfassende Performance-Attribution durch und berichtet transparent über die Quellen der Portfoliorendite.'
     ],
     category: 'Risikomanagement',
-    date: '20. Oktober 2023',
+    date: '17. April 2026',
     readTime: '9 Min.',
     image: '/images/blog39.jpg',
     author: {
@@ -926,7 +926,7 @@ export const blogData: Record<number, BlogPost> = {
       'J30 analysiert die Implikationen von Lieferkettenveränderungen für verschiedene Sektoren und Regionen und positioniert Portfolios entsprechend.'
     ],
     category: 'Wirtschaft',
-    date: '18. Oktober 2023',
+    date: '15. April 2026',
     readTime: '10 Min.',
     image: '/images/blog40.jpg',
     author: {
