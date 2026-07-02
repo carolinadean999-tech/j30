@@ -136,7 +136,7 @@ export default function RechtlicheHinweisePage() {
                 <div className="space-y-4 text-neutral-700">
                   <p>Sollten Sie Anlass zu einer Beschwerde haben, können Sie sich jederzeit an uns wenden:</p>
                   <p className="mt-2">
-                    <span className="font-semibold">E-Mail:</span> kontakt@j30vermogensverwaltung.com<br />
+                    <span className="font-semibold">E-Mail:</span> kontakt@j30-vermogensverwaltung.com<br />
                     <span className="font-semibold">Telefon:</span> +49 (0) 30 22955248<br />
                     <span className="font-semibold">Schriftlich:</span> J30 Vermögensverwaltung, Grünwalder Weg 28d, 82041 Oberhaching
                   </p>
@@ -157,7 +157,7 @@ export default function RechtlicheHinweisePage() {
                 <h3 className="font-semibold text-lg text-primary mb-3">Fragen zu rechtlichen Hinweisen?</h3>
                 <p className="text-neutral-700 mb-4">Bei Fragen zu den rechtlichen Hinweisen oder für weitere Informationen kontaktieren Sie uns bitte:</p>
                 <div className="space-y-2 text-neutral-700">
-                  <p><span className="font-semibold">E-Mail:</span> kontakt@j30vermogensverwaltung.com</p>
+                  <p><span className="font-semibold">E-Mail:</span> kontakt@j30-vermogensverwaltung.com</p>
                   <p><span className="font-semibold">Telefon:</span> +49 (0) 30 22955248</p>
                 </div>
               </div>

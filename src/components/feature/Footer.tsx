@@ -188,7 +188,7 @@ export default function Footer() {
                   </div>
                   <div className="min-w-0">
                     <p className="text-xs font-semibold text-white/90 mb-1">E-Mail</p>
-                    <p className="text-xs text-white/70 break-all">kontakt@j30vermogensverwaltung.com</p>
+                    <p className="text-xs text-white/70 break-all">kontakt@j30-vermogensverwaltung.com</p>
                   </div>
                 </div>
               </div>

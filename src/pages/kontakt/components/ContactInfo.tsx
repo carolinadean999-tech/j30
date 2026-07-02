@@ -15,7 +15,7 @@ const ContactInfo = () => {
     {
       icon: 'ri-mail-line',
       title: 'E-Mail',
-      content: ['kontakt@j30vermogensverwaltung.com']
+      content: ['kontakt@j30-vermogensverwaltung.com']
     },
     {
       icon: 'ri-time-line',

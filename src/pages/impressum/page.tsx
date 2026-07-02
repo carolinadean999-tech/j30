@@ -34,7 +34,7 @@ export default function ImpressumPage() {
                 <h2 className="text-2xl font-heading font-bold text-primary mb-4">Kontakt</h2>
                 <div className="space-y-2 text-neutral-700">
                   <p><span className="font-semibold">Telefon:</span> +49 (0) 30 22955248</p>
-                  <p><span className="font-semibold">E-Mail:</span> kontakt@j30vermogensverwaltung.com</p>
+                  <p><span className="font-semibold">E-Mail:</span> kontakt@j30-vermogensverwaltung.com</p>
                 </div>
               </div>
 

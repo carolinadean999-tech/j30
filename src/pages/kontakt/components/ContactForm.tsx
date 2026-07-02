@@ -260,7 +260,7 @@ export default function ContactForm() {
                   </div>
                   <div className="min-w-0">
                     <div className="font-semibold mb-1">E-Mail</div>
-                    <div className="text-white/80 text-sm break-all">kontakt@j30vermogensverwaltung.com</div>
+                    <div className="text-white/80 text-sm break-all">kontakt@j30-vermogensverwaltung.com</div>
                   </div>
                 </div>
 
@@ -291,7 +291,7 @@ export default function ContactForm() {
                   <i className="ri-phone-line mr-2"></i>
                   Anrufen
                 </a>
-                <a href="mailto:kontakt@j30vermogensverwaltung.com" className="flex-1 px-4 py-3 bg-primary/5 text-primary text-sm font-semibold rounded-lg hover:bg-primary/10 transition-colors duration-200 text-center whitespace-nowrap">
+                <a href="mailto:kontakt@j30-vermogensverwaltung.com" className="flex-1 px-4 py-3 bg-primary/5 text-primary text-sm font-semibold rounded-lg hover:bg-primary/10 transition-colors duration-200 text-center whitespace-nowrap">
                   <i className="ri-mail-line mr-2"></i>
                   E-Mail
                 </a>

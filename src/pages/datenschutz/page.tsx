@@ -82,7 +82,7 @@ export default function DatenschutzPage() {
                     </p>
                     <p className="mt-2">
                       Telefon: +49 (0) 30 22955248<br />
-                      E-Mail: kontakt@j30vermogensverwaltung.com
+                      E-Mail: kontakt@j30-vermogensverwaltung.com
                     </p>
                     <p className="mt-2">Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, E-Mail-Adressen o. Ä.) entscheidet.</p>
                   </div>
@@ -135,7 +135,7 @@ export default function DatenschutzPage() {
                 <h3 className="font-semibold text-lg text-primary mb-3">Fragen zum Datenschutz?</h3>
                 <p className="text-neutral-700 mb-4">Bei Fragen zur Erhebung, Verarbeitung oder Nutzung Ihrer personenbezogenen Daten, bei Auskünften, Berichtigung, Sperrung oder Löschung von Daten wenden Sie sich bitte an:</p>
                 <p className="text-neutral-700">
-                  <span className="font-semibold">E-Mail:</span> kontakt@j30vermogensverwaltung.com<br />
+                  <span className="font-semibold">E-Mail:</span> kontakt@j30-vermogensverwaltung.com<br />
                   <span className="font-semibold">Telefon:</span> +49 (0) 30 22955248
                 </p>
               </div>

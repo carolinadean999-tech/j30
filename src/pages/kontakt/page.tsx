@@ -1,24 +1,26 @@
-import { motion } from 'framer-motion';
-import { useState } from 'react';
+import { motion } from "framer-motion";
+import { useState } from "react";
 
 const KontaktPage = () => {
   const [formData, setFormData] = useState({
-    anrede: '',
-    vorname: '',
-    nachname: '',
-    email: '',
-    telefon: '',
-    unternehmen: '',
-    betreff: '',
-    nachricht: ''
+    anrede: "",
+    vorname: "",
+    nachname: "",
+    email: "",
+    telefon: "",
+    unternehmen: "",
+    betreff: "",
+    nachricht: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [submitStatus, setSubmitStatus] = useState<
+    "idle" | "success" | "error"
+  >("idle");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    setSubmitStatus('idle');
+    setSubmitStatus("idle");
 
     try {
       const formBody = new URLSearchParams();
@@ -26,87 +28,94 @@ const KontaktPage = () => {
         formBody.append(key, value);
       });
 
-      const response = await fetch('https://readdy.ai/api/form/d584en93kamldd155u6g', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
+      const response = await fetch(
+        "https://readdy.ai/api/form/d584en93kamldd155u6g",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+          },
+          body: formBody.toString(),
         },
-        body: formBody.toString()
-      });
+      );
 
       if (response.ok) {
-        setSubmitStatus('success');
+        setSubmitStatus("success");
         setFormData({
-          anrede: '',
-          vorname: '',
-          nachname: '',
-          email: '',
-          telefon: '',
-          unternehmen: '',
-          betreff: '',
-          nachricht: ''
+          anrede: "",
+          vorname: "",
+          nachname: "",
+          email: "",
+          telefon: "",
+          unternehmen: "",
+          betreff: "",
+          nachricht: "",
         });
       } else {
-        setSubmitStatus('error');
+        setSubmitStatus("error");
       }
     } catch (error) {
-      setSubmitStatus('error');
+      setSubmitStatus("error");
     } finally {
       setIsSubmitting(false);
     }
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    setFormData(prev => ({
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >,
+  ) => {
+    setFormData((prev) => ({
       ...prev,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     }));
   };
 
   const contactMethods = [
     {
-      icon: 'ri-phone-line',
-      title: 'Telefon',
-      content: '+49 (0) 30 22955248',
-      description: 'Mo-Fr: 9:00 - 18:00 Uhr',
-      gradient: 'from-blue-500 to-blue-600'
+      icon: "ri-phone-line",
+      title: "Telefon",
+      content: "+49 (0) 30 22955248",
+      description: "Mo-Fr: 9:00 - 18:00 Uhr",
+      gradient: "from-blue-500 to-blue-600",
     },
     {
-      icon: 'ri-mail-line',
-      title: 'E-Mail',
-      content: 'kontakt@j30vermogensverwaltung.com',
-      description: 'Antwort innerhalb von 24h',
-      gradient: 'from-emerald-500 to-emerald-600'
+      icon: "ri-mail-line",
+      title: "E-Mail",
+      content: "kontakt@j30-vermogensverwaltung.com",
+      description: "Antwort innerhalb von 24h",
+      gradient: "from-emerald-500 to-emerald-600",
     },
     {
-      icon: 'ri-map-pin-line',
-      title: 'Adresse',
-      content: 'Grünwalder Weg 28d',
-      description: '82041 Oberhaching, Deutschland',
-      gradient: 'from-amber-500 to-amber-600'
+      icon: "ri-map-pin-line",
+      title: "Adresse",
+      content: "Grünwalder Weg 28d",
+      description: "82041 Oberhaching, Deutschland",
+      gradient: "from-amber-500 to-amber-600",
     },
     {
-      icon: 'ri-time-line',
-      title: 'Öffnungszeiten',
-      content: 'Mo-Fr: 9:00 - 18:00',
-      description: 'Sa-So: Geschlossen',
-      gradient: 'from-purple-500 to-purple-600'
-    }
+      icon: "ri-time-line",
+      title: "Öffnungszeiten",
+      content: "Mo-Fr: 9:00 - 18:00",
+      description: "Sa-So: Geschlossen",
+      gradient: "from-purple-500 to-purple-600",
+    },
   ];
 
   const mainOffice = {
-    city: 'Oberhaching',
-    type: 'Hauptsitz',
-    address: 'Grünwalder Weg 28d, 82041 Oberhaching',
-    phone: '+49 (0) 30 22955248',
-    email: 'kontakt@j30vermogensverwaltung.com',
-    image: '/images/office1.jpg',
+    city: "Oberhaching",
+    type: "Hauptsitz",
+    address: "Grünwalder Weg 28d, 82041 Oberhaching",
+    phone: "+49 (0) 30 22955248",
+    email: "kontakt@j30-vermogensverwaltung.com",
+    image: "/images/office1.jpg",
     features: [
-      { icon: 'ri-building-4-line', text: 'Modernes Bürogebäude' },
-      { icon: 'ri-parking-line', text: 'Tiefgarage vorhanden' },
-      { icon: 'ri-subway-line', text: 'U-Bahn Mönckebergstraße' },
-      { icon: 'ri-wheelchair-line', text: 'Barrierefrei zugänglich' }
-    ]
+      { icon: "ri-building-4-line", text: "Modernes Bürogebäude" },
+      { icon: "ri-parking-line", text: "Tiefgarage vorhanden" },
+      { icon: "ri-subway-line", text: "S-Bahn Oberhaching (S3)" },
+      { icon: "ri-wheelchair-line", text: "Barrierefrei zugänglich" },
+    ],
   };
 
   return (
@@ -115,7 +124,7 @@ const KontaktPage = () => {
         {/* Hero Section */}
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
           <div className="absolute inset-0">
-            <img 
+            <img
               src="/images/contacthero.jpg"
               alt="Kontakt Hero"
               className="w-full h-full object-cover object-top"
@@ -131,15 +140,18 @@ const KontaktPage = () => {
             >
               <div className="inline-flex items-center space-x-2 bg-accent-gold/20 backdrop-blur-sm px-6 py-3 rounded-full mb-8 border border-accent-gold/30">
                 <i className="ri-customer-service-2-line text-accent-gold text-xl"></i>
-                <span className="text-accent-gold font-semibold text-sm">Wir sind für Sie da</span>
+                <span className="text-accent-gold font-semibold text-sm">
+                  Wir sind für Sie da
+                </span>
               </div>
-              
+
               <h1 className="text-5xl md:text-7xl font-heading font-bold text-white mb-6 leading-tight">
                 Kontaktieren Sie uns
               </h1>
-              
+
               <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed mb-8">
-                Ihr direkter Draht zu professioneller Kapitalverwaltung. Unser Expertenteam steht Ihnen für alle Fragen zur Verfügung.
+                Ihr direkter Draht zu professioneller Kapitalverwaltung. Unser
+                Expertenteam steht Ihnen für alle Fragen zur Verfügung.
               </p>
 
               <div className="flex flex-wrap items-center justify-center gap-4">
@@ -147,21 +159,27 @@ const KontaktPage = () => {
                   <i className="ri-time-line text-accent-gold text-2xl"></i>
                   <div className="text-left">
                     <p className="text-xs text-white/70">Antwortzeit</p>
-                    <p className="text-sm font-bold text-white">Innerhalb 24h</p>
+                    <p className="text-sm font-bold text-white">
+                      Innerhalb 24h
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-xl border border-white/20">
                   <i className="ri-shield-check-line text-accent-gold text-2xl"></i>
                   <div className="text-left">
                     <p className="text-xs text-white/70">Datenschutz</p>
-                    <p className="text-sm font-bold text-white">DSGVO-konform</p>
+                    <p className="text-sm font-bold text-white">
+                      DSGVO-konform
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-xl border border-white/20">
                   <i className="ri-customer-service-line text-accent-gold text-2xl"></i>
                   <div className="text-left">
                     <p className="text-xs text-white/70">Verfügbarkeit</p>
-                    <p className="text-sm font-bold text-white">Mo-Fr 9-18 Uhr</p>
+                    <p className="text-sm font-bold text-white">
+                      Mo-Fr 9-18 Uhr
+                    </p>
                   </div>
                 </div>
               </div>
@@ -185,16 +203,26 @@ const KontaktPage = () => {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   className="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-neutral-100 hover:border-accent-gold/30"
                 >
-                  <div className={`absolute inset-0 bg-gradient-to-br ${method.gradient} opacity-0 group-hover:opacity-5 rounded-2xl transition-opacity duration-300`}></div>
-                  
+                  <div
+                    className={`absolute inset-0 bg-gradient-to-br ${method.gradient} opacity-0 group-hover:opacity-5 rounded-2xl transition-opacity duration-300`}
+                  ></div>
+
                   <div className="relative">
-                    <div className={`w-16 h-16 bg-gradient-to-br ${method.gradient} rounded-2xl flex items-center justify-center mb-6 transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-300 shadow-lg`}>
+                    <div
+                      className={`w-16 h-16 bg-gradient-to-br ${method.gradient} rounded-2xl flex items-center justify-center mb-6 transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-300 shadow-lg`}
+                    >
                       <i className={`${method.icon} text-3xl text-white`}></i>
                     </div>
-                    
-                    <h3 className="text-lg font-heading font-bold text-primary mb-3">{method.title}</h3>
-                    <p className="text-base font-semibold text-neutral-800 mb-2 break-all">{method.content}</p>
-                    <p className="text-sm text-neutral-600">{method.description}</p>
+
+                    <h3 className="text-lg font-heading font-bold text-primary mb-3">
+                      {method.title}
+                    </h3>
+                    <p className="text-base font-semibold text-neutral-800 mb-2 break-all">
+                      {method.content}
+                    </p>
+                    <p className="text-sm text-neutral-600">
+                      {method.description}
+                    </p>
                   </div>
                 </motion.div>
               ))}
@@ -219,11 +247,17 @@ const KontaktPage = () => {
                       Senden Sie uns eine Nachricht
                     </h2>
                     <p className="text-neutral-600 leading-relaxed">
-                      Füllen Sie das Formular aus und wir melden uns innerhalb von 24 Stunden bei Ihnen.
+                      Füllen Sie das Formular aus und wir melden uns innerhalb
+                      von 24 Stunden bei Ihnen.
                     </p>
                   </div>
 
-                  <form onSubmit={handleSubmit} data-readdy-form id="contact-form" className="space-y-6">
+                  <form
+                    onSubmit={handleSubmit}
+                    data-readdy-form
+                    id="contact-form"
+                    className="space-y-6"
+                  >
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div>
                         <label className="block text-sm font-semibold text-primary mb-2">
@@ -355,20 +389,22 @@ const KontaktPage = () => {
                       </p>
                     </div>
 
-                    {submitStatus === 'success' && (
+                    {submitStatus === "success" && (
                       <div className="bg-green-50 border border-green-200 rounded-xl p-4 flex items-center space-x-3">
                         <i className="ri-checkbox-circle-line text-2xl text-green-600"></i>
                         <p className="text-sm text-green-800 font-medium">
-                          Vielen Dank! Ihre Nachricht wurde erfolgreich versendet.
+                          Vielen Dank! Ihre Nachricht wurde erfolgreich
+                          versendet.
                         </p>
                       </div>
                     )}
 
-                    {submitStatus === 'error' && (
+                    {submitStatus === "error" && (
                       <div className="bg-red-50 border border-red-200 rounded-xl p-4 flex items-center space-x-3">
                         <i className="ri-error-warning-line text-2xl text-red-600"></i>
                         <p className="text-sm text-red-800 font-medium">
-                          Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.
+                          Ein Fehler ist aufgetreten. Bitte versuchen Sie es
+                          erneut.
                         </p>
                       </div>
                     )}
@@ -418,15 +454,19 @@ const KontaktPage = () => {
 
                 {/* Quick Info */}
                 <div className="bg-gradient-to-br from-primary to-primary-dark rounded-3xl p-8 shadow-xl text-white">
-                  <h3 className="text-2xl font-heading font-bold mb-6">Schnellkontakt</h3>
-                  
+                  <h3 className="text-2xl font-heading font-bold mb-6">
+                    Schnellkontakt
+                  </h3>
+
                   <div className="space-y-4">
                     <div className="flex items-start space-x-4 p-4 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20">
                       <div className="w-12 h-12 bg-accent-gold rounded-xl flex items-center justify-center flex-shrink-0">
                         <i className="ri-phone-line text-xl text-primary"></i>
                       </div>
                       <div>
-                        <p className="text-sm text-white/70 mb-1">Rufen Sie uns an</p>
+                        <p className="text-sm text-white/70 mb-1">
+                          Rufen Sie uns an
+                        </p>
                         <p className="font-bold text-lg">+49 (0) 30 22955248</p>
                       </div>
                     </div>
@@ -436,8 +476,12 @@ const KontaktPage = () => {
                         <i className="ri-mail-line text-xl text-primary"></i>
                       </div>
                       <div className="min-w-0">
-                        <p className="text-sm text-white/70 mb-1">Schreiben Sie uns</p>
-                        <p className="font-bold text-lg break-all">kontakt@j30vermogensverwaltung.com</p>
+                        <p className="text-sm text-white/70 mb-1">
+                          Schreiben Sie uns
+                        </p>
+                        <p className="font-bold text-lg break-all">
+                          kontakt@j30-vermogensverwaltung.com
+                        </p>
                       </div>
                     </div>
 
@@ -446,9 +490,13 @@ const KontaktPage = () => {
                         <i className="ri-time-line text-xl text-primary"></i>
                       </div>
                       <div>
-                        <p className="text-sm text-white/70 mb-1">Öffnungszeiten</p>
+                        <p className="text-sm text-white/70 mb-1">
+                          Öffnungszeiten
+                        </p>
                         <p className="font-bold">Mo-Fr: 9:00 - 18:00 Uhr</p>
-                        <p className="text-sm text-white/70">Sa-So: Geschlossen</p>
+                        <p className="text-sm text-white/70">
+                          Sa-So: Geschlossen
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -476,13 +524,16 @@ const KontaktPage = () => {
             >
               <div className="inline-flex items-center space-x-2 bg-primary/5 px-5 py-2 rounded-full mb-6">
                 <i className="ri-building-line text-primary"></i>
-                <span className="text-sm font-semibold text-primary">Unser Standort</span>
+                <span className="text-sm font-semibold text-primary">
+                  Unser Standort
+                </span>
               </div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-6">
                 Besuchen Sie uns in Oberhaching
               </h2>
               <p className="text-xl text-neutral-600 max-w-3xl mx-auto leading-relaxed">
-                Unser Hauptsitz im Herzen der Hansestadt – zentral gelegen und hervorragend erreichbar.
+                Unser Hauptsitz im Herzen von Oberhaching – zentral gelegen und
+                hervorragend erreichbar.
               </p>
             </motion.div>
 
@@ -509,14 +560,18 @@ const KontaktPage = () => {
                     <div className="absolute top-6 left-6">
                       <div className="flex items-center space-x-2 bg-accent-gold px-5 py-2.5 rounded-full shadow-lg">
                         <i className="ri-star-fill text-primary"></i>
-                        <span className="text-primary text-sm font-bold">{mainOffice.type}</span>
+                        <span className="text-primary text-sm font-bold">
+                          {mainOffice.type}
+                        </span>
                       </div>
                     </div>
 
                     {/* City Name Overlay */}
                     <div className="absolute bottom-6 left-6 right-6">
-                      <h3 className="text-5xl font-heading font-bold text-white mb-2">{mainOffice.city}</h3>
-                      <p className="text-white/80 text-lg">Freie und Hansestadt</p>
+                      <h3 className="text-5xl font-heading font-bold text-white mb-2">
+                        {mainOffice.city}
+                      </h3>
+                      <p className="text-white/80 text-lg">Landkreis München</p>
                     </div>
                   </div>
 
@@ -529,8 +584,12 @@ const KontaktPage = () => {
                           <i className="ri-map-pin-line text-2xl text-primary"></i>
                         </div>
                         <div>
-                          <p className="text-sm text-neutral-500 mb-1">Adresse</p>
-                          <p className="text-lg font-bold text-primary">{mainOffice.address}</p>
+                          <p className="text-sm text-neutral-500 mb-1">
+                            Adresse
+                          </p>
+                          <p className="text-lg font-bold text-primary">
+                            {mainOffice.address}
+                          </p>
                         </div>
                       </div>
 
@@ -539,8 +598,12 @@ const KontaktPage = () => {
                           <i className="ri-phone-line text-2xl text-primary"></i>
                         </div>
                         <div>
-                          <p className="text-sm text-neutral-500 mb-1">Telefon</p>
-                          <p className="text-lg font-bold text-primary">{mainOffice.phone}</p>
+                          <p className="text-sm text-neutral-500 mb-1">
+                            Telefon
+                          </p>
+                          <p className="text-lg font-bold text-primary">
+                            {mainOffice.phone}
+                          </p>
                         </div>
                       </div>
 
@@ -549,8 +612,12 @@ const KontaktPage = () => {
                           <i className="ri-mail-line text-2xl text-primary"></i>
                         </div>
                         <div>
-                          <p className="text-sm text-neutral-500 mb-1">E-Mail</p>
-                          <p className="text-lg font-bold text-primary">{mainOffice.email}</p>
+                          <p className="text-sm text-neutral-500 mb-1">
+                            E-Mail
+                          </p>
+                          <p className="text-lg font-bold text-primary">
+                            {mainOffice.email}
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -566,8 +633,12 @@ const KontaktPage = () => {
                           transition={{ duration: 0.4, delay: index * 0.1 }}
                           className="flex items-center space-x-3 p-3 bg-primary/5 rounded-xl"
                         >
-                          <i className={`${feature.icon} text-accent-gold text-xl`}></i>
-                          <span className="text-sm font-medium text-primary">{feature.text}</span>
+                          <i
+                            className={`${feature.icon} text-accent-gold text-xl`}
+                          ></i>
+                          <span className="text-sm font-medium text-primary">
+                            {feature.text}
+                          </span>
                         </motion.div>
                       ))}
                     </div>
@@ -616,21 +687,21 @@ const KontaktPage = () => {
             <div className="space-y-4">
               {[
                 {
-                  q: 'Wie schnell erhalte ich eine Antwort auf meine Anfrage?',
-                  a: 'Wir antworten in der Regel innerhalb von 24 Stunden auf alle Anfragen, die während unserer Geschäftszeiten eingehen.'
+                  q: "Wie schnell erhalte ich eine Antwort auf meine Anfrage?",
+                  a: "Wir antworten in der Regel innerhalb von 24 Stunden auf alle Anfragen, die während unserer Geschäftszeiten eingehen.",
                 },
                 {
-                  q: 'Kann ich einen persönlichen Beratungstermin vereinbaren?',
-                  a: 'Ja, gerne! Kontaktieren Sie uns telefonisch oder per E-Mail, um einen individuellen Beratungstermin in einem unserer Standorte zu vereinbaren.'
+                  q: "Kann ich einen persönlichen Beratungstermin vereinbaren?",
+                  a: "Ja, gerne! Kontaktieren Sie uns telefonisch oder per E-Mail, um einen individuellen Beratungstermin in einem unserer Standorte zu vereinbaren.",
                 },
                 {
-                  q: 'Welche Unterlagen benötige ich für ein Erstgespräch?',
-                  a: 'Für ein erstes Beratungsgespräch benötigen Sie keine speziellen Unterlagen. Wir besprechen gemeinsam Ihre Anforderungen und informieren Sie über die weiteren Schritte.'
+                  q: "Welche Unterlagen benötige ich für ein Erstgespräch?",
+                  a: "Für ein erstes Beratungsgespräch benötigen Sie keine speziellen Unterlagen. Wir besprechen gemeinsam Ihre Anforderungen und informieren Sie über die weiteren Schritte.",
                 },
                 {
-                  q: 'Bieten Sie auch Online-Beratung an?',
-                  a: 'Ja, wir bieten flexible Beratungsoptionen an, einschließlich Video-Calls und Telefon-Konferenzen für Ihre Bequemlichkeit.'
-                }
+                  q: "Bieten Sie auch Online-Beratung an?",
+                  a: "Ja, wir bieten flexible Beratungsoptionen an, einschließlich Video-Calls und Telefon-Konferenzen für Ihre Bequemlichkeit.",
+                },
               ].map((faq, index) => (
                 <motion.div
                   key={index}
@@ -644,7 +715,9 @@ const KontaktPage = () => {
                     <i className="ri-question-line text-accent-gold text-xl mt-1"></i>
                     <span>{faq.q}</span>
                   </h3>
-                  <p className="text-neutral-600 leading-relaxed pl-8">{faq.a}</p>
+                  <p className="text-neutral-600 leading-relaxed pl-8">
+                    {faq.a}
+                  </p>
                 </motion.div>
               ))}
             </div>
