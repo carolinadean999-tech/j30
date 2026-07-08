@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import DashboardHeader from '../components/DashboardHeader';
 import CallUsModal from '../components/CallUsModal';
+import NoInvestment from '../components/NoInvestment';
 import { motion } from 'framer-motion';
 
 export default function FlexgeldPage() {
@@ -23,7 +24,7 @@ export default function FlexgeldPage() {
 
   const investment = user.investments.find(inv => inv.type === 'flexgeld');
   if (!investment) {
-    return <div>Keine Flexgeld-Investition gefunden</div>;
+    return <NoInvestment typeName="Flexgeld" icon="ri-exchange-line" />;
   }
 
   const startDate = new Date(investment.startDate);
@@ -93,9 +94,17 @@ export default function FlexgeldPage() {
                   <h1 className="text-3xl md:text-4xl font-heading font-bold mb-2">
                     Flexgeld-Anlage
                   </h1>
-                  <p className="text-white/90 text-lg">
-                    {investment.name}
-                  </p>
+                  <div className="flex items-center gap-3">
+                    <p className="text-white/90 text-lg">
+                      {investment.name}
+                    </p>
+                    {investment.status === 'pending' && (
+                      <span className="inline-flex items-center gap-2 bg-orange-500 text-white px-4 py-1.5 rounded-full text-sm font-bold shadow-lg shadow-orange-500/40 ring-2 ring-orange-300/50">
+                        <i className="ri-time-line text-base"></i>
+                        Ausstehend
+                      </span>
+                    )}
+                  </div>
                 </div>
               </div>
               <div className="text-right">
@@ -128,7 +137,7 @@ export default function FlexgeldPage() {
               </div>
               <div className="bg-white/15 backdrop-blur-sm rounded-xl p-5 border border-white/20 shadow-lg">
                 <p className="text-white/80 text-sm mb-2 font-medium">Verfügbar</p>
-                <p className="text-2xl font-bold">Sofort</p>
+                <p className="text-2xl font-bold">{investment.status === 'pending' ? 'Ausstehend' : 'Sofort'}</p>
               </div>
             </div>
           </div>

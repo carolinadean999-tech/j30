@@ -58,6 +58,32 @@ export default function InvestmentCards({ investments }: InvestmentCardsProps) {
     }
   };
 
+  const getStatusBadge = (status: Investment['status']) => {
+    switch (status) {
+      case 'pending':
+        return {
+          label: 'Ausstehend',
+          icon: 'ri-time-line',
+          dot: 'bg-white shadow-white/50',
+          box: 'bg-orange-500 text-white border-orange-500 shadow-md shadow-orange-500/40',
+        };
+      case 'completed':
+        return {
+          label: 'Abgeschlossen',
+          icon: 'ri-check-line',
+          dot: 'bg-neutral-400 shadow-neutral-400/50',
+          box: 'bg-neutral-100 text-neutral-600 border-neutral-200',
+        };
+      default:
+        return {
+          label: 'Aktiv & Rentabel',
+          icon: '',
+          dot: 'bg-amber-500 shadow-amber-500/50',
+          box: 'bg-amber-50 text-primary border-amber-200',
+        };
+    }
+  };
+
   const calculateProgress = (investment: Investment) => {
     const start = new Date(investment.startDate).getTime();
     const end = new Date(investment.endDate).getTime();
@@ -214,10 +240,19 @@ export default function InvestmentCards({ investments }: InvestmentCardsProps) {
 
                 {/* Status Badge */}
                 <div className="flex items-center justify-center">
-                  <div className="inline-flex items-center gap-2 bg-amber-50 text-primary px-4 py-2.5 rounded-full text-sm font-bold border border-amber-200">
-                    <div className="w-2 h-2 bg-amber-500 rounded-full animate-pulse shadow-lg shadow-amber-500/50"></div>
-                    <span>Aktiv & Rentabel</span>
-                  </div>
+                  {(() => {
+                    const badge = getStatusBadge(investment.status);
+                    return (
+                      <div className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-bold border ${badge.box}`}>
+                        {badge.icon ? (
+                          <i className={`${badge.icon} text-base`}></i>
+                        ) : (
+                          <div className={`w-2 h-2 rounded-full animate-pulse shadow-lg ${badge.dot}`}></div>
+                        )}
+                        <span>{badge.label}</span>
+                      </div>
+                    );
+                  })()}
                 </div>
               </div>
             </Link>

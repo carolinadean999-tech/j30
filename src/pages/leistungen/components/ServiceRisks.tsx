@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 interface Risk {
   title: string;
   description: string;
+  icon?: string;
+  level?: string;
 }
 
 interface ServiceRisksProps {

@@ -1,27 +1,160 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { Investment } from '../../../data/users';
 
-export default function PerformanceChart() {
+interface PerformanceChartProps {
+  investments: Investment[];
+}
+
+const MONTH_LABELS = ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'];
+
+// Portföyün gerçek yatırımlarından aylık değer serisi üretir.
+// Pending (beklemede) yatırımlar henüz aktif olmadığından faiz getirmez; sadece anapara park halindedir.
+function buildMonthlyData(investments: Investment[]): Array<{ month: string; value: number; profit: number }> {
+  const dated = investments.filter(inv => inv.startDate && !isNaN(new Date(inv.startDate).getTime()));
+  if (dated.length === 0) return [];
+
+  const firstStart = new Date(Math.min(...dated.map(inv => new Date(inv.startDate).getTime())));
+  const cursor = new Date(firstStart.getFullYear(), firstStart.getMonth(), 1);
+  const now = new Date();
+  const end = new Date(now.getFullYear(), now.getMonth(), 1);
+
+  const data: Array<{ month: string; value: number; profit: number }> = [];
+  while (cursor <= end) {
+    let value = 0;
+    let profit = 0;
+    for (const inv of dated) {
+      const start = new Date(inv.startDate);
+      const startMonth = new Date(start.getFullYear(), start.getMonth(), 1);
+      if (cursor < startMonth) continue; // yatırım henüz başlamadı
+      value += inv.amount;
+      if (inv.status !== 'pending') {
+        const monthsElapsed = (cursor.getFullYear() - start.getFullYear()) * 12 + (cursor.getMonth() - start.getMonth());
+        const monthlyInterest = (inv.amount * inv.interestRate) / 100 / 12;
+        const accrued = Math.min(monthlyInterest * monthsElapsed, inv.profit);
+        value += accrued;
+        profit += accrued;
+      }
+    }
+    data.push({
+      month: `${MONTH_LABELS[cursor.getMonth()]} ${cursor.getFullYear()}`,
+      value: Math.round(value),
+      profit: Math.round(profit),
+    });
+    cursor.setMonth(cursor.getMonth() + 1);
+  }
+  return data;
+}
+
+export default function PerformanceChart({ investments }: PerformanceChartProps) {
   const [timeRange, setTimeRange] = useState('1Y');
 
-  const monthlyData = [
-    { month: 'Jan 2025', value: 500000, profit: 0 },
-    { month: 'Feb 2025', value: 502083, profit: 2083 },
-    { month: 'Mär 2025', value: 504167, profit: 4167 },
-    { month: 'Apr 2025', value: 506250, profit: 6250 },
-    { month: 'Mai 2025', value: 508333, profit: 8333 },
-    { month: 'Jun 2025', value: 510417, profit: 10417 },
-    { month: 'Jul 2025', value: 512500, profit: 12500 },
-    { month: 'Aug 2025', value: 514583, profit: 14583 },
-    { month: 'Sep 2025', value: 516667, profit: 16667 },
-    { month: 'Okt 2025', value: 518750, profit: 18750 },
-    { month: 'Nov 2025', value: 520833, profit: 20833 },
-    { month: 'Dez 2025', value: 522917, profit: 22917 },
-  ];
+  const monthlyData = buildMonthlyData(investments);
+
+  if (monthlyData.length === 0) {
+    return (
+      <div className="bg-white rounded-3xl shadow-xl border border-neutral-100 overflow-hidden">
+        <div className="bg-gradient-to-br from-primary via-primary-dark to-slate-900 p-8 text-white">
+          <div className="flex items-center gap-3">
+            <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center shadow-lg">
+              <i className="ri-bar-chart-box-line text-2xl"></i>
+            </div>
+            <h2 className="text-2xl font-heading font-bold">Performance-Entwicklung</h2>
+          </div>
+        </div>
+        <div className="p-12 text-center text-neutral-600">
+          Noch keine Wertentwicklung verfügbar.
+        </div>
+      </div>
+    );
+  }
+
+  const totalAmount = investments.reduce((sum, inv) => sum + inv.amount, 0);
+  const hasPerformance = monthlyData.some(d => d.profit > 0);
+
+  // Portföyde henüz getiri yoksa (yatırım beklemede / ausstehend) çubuk grafik yerine
+  // dürüst ve dikkat çekici bir "Ausstehend" durum ekranı gösterilir.
+  if (!hasPerformance) {
+    const rateLabel = investments.length === 1
+      ? `${investments[0].interestRate.toLocaleString('de-DE')}% p.a.`
+      : 'variabel';
+
+    return (
+      <div className="bg-white rounded-3xl shadow-xl border border-neutral-100 overflow-hidden">
+        <div className="bg-gradient-to-br from-primary via-primary-dark to-slate-900 p-8 text-white relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -mr-32 -mt-32"></div>
+          <div className="absolute bottom-0 left-0 w-48 h-48 bg-black/10 rounded-full -ml-24 -mb-24"></div>
+          <div className="relative z-10 flex items-center gap-3">
+            <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center shadow-lg">
+              <i className="ri-bar-chart-box-line text-2xl"></i>
+            </div>
+            <div>
+              <h2 className="text-2xl font-heading font-bold">Performance-Entwicklung</h2>
+              <p className="text-white/80 text-sm mt-1">Aktivierung Ihrer Anlage ausstehend</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="p-8 md:p-12">
+          <div className="max-w-2xl mx-auto text-center">
+            <div className="relative w-24 h-24 mx-auto mb-6">
+              <div className="absolute inset-0 bg-orange-400/30 rounded-full animate-ping"></div>
+              <div className="relative w-24 h-24 bg-gradient-to-br from-orange-500 to-amber-600 rounded-full flex items-center justify-center shadow-xl">
+                <i className="ri-time-line text-5xl text-white"></i>
+              </div>
+            </div>
+
+            <div className="inline-flex items-center gap-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-bold border border-orange-200 mb-4">
+              <span className="w-2 h-2 bg-orange-500 rounded-full animate-pulse"></span>
+              Ausstehend
+            </div>
+
+            <h3 className="text-2xl font-heading font-bold text-primary mb-3">
+              Ihre Anlage ist derzeit ausstehend
+            </h3>
+            <p className="text-neutral-600 mb-8">
+              Sobald Ihre Anlage geprüft und aktiviert wurde, sehen Sie an dieser Stelle die
+              monatliche Wertentwicklung Ihres Portfolios. Die Aktivierung erfolgt in der Regel
+              innerhalb weniger Werktage.
+            </p>
+
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8 text-left">
+              <div className="bg-gradient-to-br from-amber-50 to-primary/5 rounded-xl p-5 border border-amber-100">
+                <p className="text-sm text-neutral-600 mb-1 font-medium">Anlagebetrag</p>
+                <p className="text-xl font-bold text-primary">{totalAmount.toLocaleString('de-DE')} €</p>
+              </div>
+              <div className="bg-gradient-to-br from-amber-50 to-amber-100/50 rounded-xl p-5 border border-amber-100">
+                <p className="text-sm text-neutral-600 mb-1 font-medium">Zinssatz</p>
+                <p className="text-xl font-bold text-amber-700">{rateLabel}</p>
+              </div>
+              <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl p-5 border border-orange-100">
+                <p className="text-sm text-neutral-600 mb-1 font-medium">Status</p>
+                <p className="text-xl font-bold text-orange-600">Ausstehend</p>
+              </div>
+            </div>
+
+            <div>
+              <div className="flex items-center justify-between text-xs text-neutral-500 mb-2 font-medium">
+                <span>Aktivierung</span>
+                <span className="text-orange-600 font-bold">Ausstehend</span>
+              </div>
+              <div className="h-2.5 bg-neutral-100 rounded-full overflow-hidden">
+                <motion.div
+                  className="h-full w-1/3 bg-gradient-to-r from-orange-500 to-amber-500 rounded-full"
+                  animate={{ x: ['-100%', '300%'] }}
+                  transition={{ duration: 1.8, repeat: Infinity, ease: 'easeInOut' }}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   const maxValue = Math.max(...monthlyData.map(d => d.value));
   const minValue = Math.min(...monthlyData.map(d => d.value));
-  const range = maxValue - minValue;
+  const range = maxValue - minValue || 1;
 
   const timeRanges = [
     { label: '1M', value: '1M' },
@@ -107,7 +240,7 @@ export default function PerformanceChart() {
               <p className="text-sm text-green-700 font-medium">Wachstum</p>
             </div>
             <p className="text-2xl font-bold text-green-700">
-              +{((maxValue - minValue) / minValue * 100).toFixed(2)}%
+              +{(minValue > 0 ? (maxValue - minValue) / minValue * 100 : 0).toFixed(2)}%
             </p>
           </div>
         </div>
@@ -116,7 +249,7 @@ export default function PerformanceChart() {
         <div className="relative h-80">
           <div className="absolute inset-0 flex items-end justify-between gap-2">
             {monthlyData.map((data, index) => {
-              const height = ((data.value - minValue) / range) * 100;
+              const height = maxValue === minValue ? 60 : ((data.value - minValue) / range) * 90 + 10;
               const isLast = index === monthlyData.length - 1;
               
               return (

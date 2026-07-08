@@ -196,7 +196,9 @@ export default function PortfolioOverview({ investments }: PortfolioOverviewProp
               </div>
               <div className="bg-white rounded-xl px-4 py-3 shadow-sm border border-neutral-200">
                 <p className="text-xs text-neutral-600 mb-1 font-medium">Diversifikation</p>
-                <p className="text-lg font-bold text-accent-gold">Optimal</p>
+                <p className="text-lg font-bold text-accent-gold">
+                  {investmentsByType.length >= 3 ? 'Optimal' : investmentsByType.length === 2 ? 'Gut' : 'Einzelanlage'}
+                </p>
               </div>
             </div>
           </div>

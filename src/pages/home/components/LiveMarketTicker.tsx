@@ -311,7 +311,7 @@ const LiveMarketTicker = () => {
       y: 0,
       scale: 1,
       transition: {
-        type: 'spring',
+        type: 'spring' as const,
         bounce: 0.3,
         duration: 0.6,
       },

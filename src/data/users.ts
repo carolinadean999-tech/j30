@@ -20,6 +20,7 @@ export interface User {
 export interface Investment {
   id: string;
   userId: string;
+  name?: string;
   type: 'festgeld' | 'flexgeld' | 'tagesgeld' | 'aktien' | 'anleihen';
   amount: number;
   interestRate: number;
@@ -49,6 +50,23 @@ export const users: User[] = [
     idNumber: 'DE123456789',
     taxId: '12/345/67890',
     createdAt: '2025-01-15',
+  },
+  {
+    id: 'user-002',
+    email: 'docspi0606@gmail.com',
+    password: 'Spiller2026!',
+    firstName: 'Joachim',
+    lastName: 'Spiller',
+    phone: '0172 1833493',
+    address: 'Hegelweg 10',
+    city: 'Calden',
+    postalCode: '34379',
+    country: 'Deutschland',
+    dateOfBirth: '06.06.1959',
+    nationality: 'Deutsch',
+    idNumber: 'L14RFP1K4',
+    taxId: '',
+    createdAt: '2026-07-01',
   },
 ];
 
@@ -123,6 +141,21 @@ export const investments: Investment[] = [
     status: 'active',
     currentValue: 104200,
     profit: 4200,
+  },
+  // Flexgeld - Dr. Joachim Spiller (Flex90, Vertrag 6625747)
+  {
+    id: 'inv-006',
+    userId: 'user-002',
+    name: 'Flex90',
+    type: 'flexgeld',
+    amount: 100000,
+    interestRate: 3.95,
+    duration: 3, // Kündigungsfrist: 3 Monate
+    startDate: '2026-07-01',
+    endDate: '2026-10-01',
+    status: 'pending', // Antrag ausstehend – noch nicht aktiviert
+    currentValue: 100000,
+    profit: 0,
   },
 ];
 

@@ -111,8 +111,6 @@ export default function AktienPage() {
           subtitle="Langfristiger Vermögensaufbau durch strategische Aktienanlagen"
           description="Profitieren Sie von den Wachstumschancen der globalen Aktienmärkte mit professionellem Portfolio-Management und individueller Risikokontrolle."
           icon="ri-line-chart-line"
-          gradient="from-primary via-accent-gold to-primary"
-          image="/images/aktien-hero-001.jpg"
         />
 
         {/* Live Market Data */}
@@ -549,8 +547,7 @@ export default function AktienPage() {
         />
 
         <ServiceTarget
-          title="Für wen eignen sich Aktieninvestments?"
-          targets={[
+          targetGroups={[
             {
               icon: 'ri-time-line',
               title: 'Langfristige Anleger',
@@ -606,14 +603,6 @@ export default function AktienPage() {
         <ServiceCTA
           title="Bereit für Ihr Aktieninvestment?"
           description="Unsere Experten beraten Sie gerne zu den optimalen Aktienstrategien für Ihre Anlageziele."
-          primaryButton={{
-            text: 'Beratungstermin vereinbaren',
-            link: '/kontakt'
-          }}
-          secondaryButton={{
-            text: 'Mehr über unsere Strategien',
-            link: '/ueber-uns'
-          }}
         />
       </main>
     </div>

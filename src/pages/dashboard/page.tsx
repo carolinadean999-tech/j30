@@ -60,7 +60,11 @@ export default function DashboardPage() {
                     </div>
                   </div>
                   <p className="text-white/90 text-base md:text-lg max-w-2xl">
-                    Ihr Portfolio entwickelt sich hervorragend. Hier ist Ihre aktuelle Übersicht.
+                    {totalProfit > 0
+                      ? 'Ihr Portfolio entwickelt sich hervorragend. Hier ist Ihre aktuelle Übersicht.'
+                      : investments.some(inv => inv.status === 'pending')
+                        ? 'Ihre Anlage ist derzeit ausstehend. Hier ist Ihre aktuelle Übersicht.'
+                        : 'Hier ist Ihre aktuelle Übersicht.'}
                   </p>
                 </div>
                 
@@ -153,10 +157,17 @@ export default function DashboardPage() {
             <p className="text-3xl font-bold text-green-600 mb-1">
               +{totalProfit.toLocaleString('de-DE')} €
             </p>
-            <div className="flex items-center gap-1 text-green-600 text-sm font-semibold">
-              <i className="ri-trophy-line"></i>
-              <span>Ausgezeichnet</span>
-            </div>
+            {totalProfit > 0 ? (
+              <div className="flex items-center gap-1 text-green-600 text-sm font-semibold">
+                <i className="ri-trophy-line"></i>
+                <span>Ausgezeichnet</span>
+              </div>
+            ) : (
+              <div className="flex items-center gap-1 text-orange-600 text-sm font-semibold">
+                <i className="ri-time-line"></i>
+                <span>Ausstehend</span>
+              </div>
+            )}
           </motion.div>
 
           <motion.div
@@ -177,10 +188,17 @@ export default function DashboardPage() {
             <p className="text-3xl font-bold text-primary mb-1">
               {averageReturn.toFixed(2)}%
             </p>
-            <div className="flex items-center gap-1 text-green-600 text-sm font-semibold">
-              <i className="ri-arrow-up-circle-line"></i>
-              <span>Über Ziel</span>
-            </div>
+            {averageReturn > 0 ? (
+              <div className="flex items-center gap-1 text-green-600 text-sm font-semibold">
+                <i className="ri-arrow-up-circle-line"></i>
+                <span>Über Ziel</span>
+              </div>
+            ) : (
+              <div className="flex items-center gap-1 text-orange-600 text-sm font-semibold">
+                <i className="ri-time-line"></i>
+                <span>Ausstehend</span>
+              </div>
+            )}
           </motion.div>
         </div>
 
@@ -191,7 +209,7 @@ export default function DashboardPage() {
           transition={{ delay: 0.5 }}
           className="mb-8"
         >
-          <PerformanceChart />
+          <PerformanceChart investments={investments} />
         </motion.div>
 
         {/* Investment Cards */}
@@ -207,7 +225,7 @@ export default function DashboardPage() {
                 Ihre Investitionen
               </h2>
               <p className="text-neutral-600">
-                Detaillierte Übersicht aller aktiven Anlagen
+                Detaillierte Übersicht aller Anlagen
               </p>
             </div>
             <button

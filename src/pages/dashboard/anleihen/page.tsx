@@ -4,6 +4,7 @@ import { useAuth } from '../../../contexts/AuthContext';
 import { motion } from 'framer-motion';
 import DashboardHeader from '../components/DashboardHeader';
 import CallUsModal from '../components/CallUsModal';
+import NoInvestment from '../components/NoInvestment';
 
 export default function AnleihenDetailPage() {
   const { user } = useAuth();
@@ -22,16 +23,7 @@ export default function AnleihenDetailPage() {
   const investment = user.investments?.find(inv => inv.type === 'anleihen');
 
   if (!investment) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-neutral-50 via-white to-neutral-100">
-        <DashboardHeader />
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="text-center py-12">
-            <p className="text-neutral-600">Keine Anleihen-Investition gefunden</p>
-          </div>
-        </div>
-      </div>
-    );
+    return <NoInvestment typeName="Anleihen" icon="ri-file-chart-line" />;
   }
 
   const profitPercentage = ((investment.profit / investment.amount) * 100).toFixed(2);

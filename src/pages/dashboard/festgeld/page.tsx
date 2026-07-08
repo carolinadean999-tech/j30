@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import DashboardHeader from '../components/DashboardHeader';
 import CallUsModal from '../components/CallUsModal';
+import NoInvestment from '../components/NoInvestment';
 import { motion } from 'framer-motion';
 
 export default function FestgeldPage() {
@@ -21,7 +22,7 @@ export default function FestgeldPage() {
 
   const investment = user.investments.find(inv => inv.type === 'festgeld');
   if (!investment) {
-    return <div>Keine Festgeld-Investition gefunden</div>;
+    return <NoInvestment typeName="Festgeld" icon="ri-safe-2-line" />;
   }
 
   const startDate = new Date(investment.startDate);
