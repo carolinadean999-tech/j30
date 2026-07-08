@@ -8,20 +8,12 @@ import DashboardHeader from '../components/DashboardHeader';
 export default function ProfilPage() {
   const { user } = useAuth();
   const navigate = useNavigate();
-  const [isEditing, setIsEditing] = useState(false);
-  const [showPasswordModal, setShowPasswordModal] = useState(false);
-  const [showSuccess, setShowSuccess] = useState(false);
-  const [showError, setShowError] = useState(false);
 
   useEffect(() => {
     if (!user) {
       navigate('/login');
     }
   }, [user, navigate]);
-
-  if (!user) {
-    return null;
-  }
 
   const [formData, setFormData] = useState({
     firstName: '',
@@ -70,6 +62,10 @@ export default function ProfilPage() {
       });
     }
   }, [user, navigate]);
+
+  if (!user) {
+    return null;
+  }
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({
